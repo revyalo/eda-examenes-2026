@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/01_PLANTILLAS_BASE/casos_de_uso/plantilla_ejercicio_caso_uso/pom.xml" />
+        <option value="$PROJECT_DIR$/01_PLANTILLAS_BASE/implementacion/plantilla_ejercicio_implementacion/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/03_impl_hipergrafo/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/03_impl_hipergrafo/esqueletos_existentes/hipergrafo/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/02_cu_oposiciones_cnp/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/02_cu_oposiciones_cnp/esqueletos_existentes/oposiciones_cnp_esqueleto/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/04_cu_cni_interacciones/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/04_cu_cni_interacciones/esqueletos_existentes/cni_interacciones/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/27_pendiente_wuolah_examen_7/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/01_cu_2026_urjcnetservices_routers/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/01_cu_2026_urjcnetservices_routers/esqueletos_existentes/uso_esqueleto/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/12_mixto_septiembre_2024_bst_red_p2p/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/24_mixto_junio_2016_teoria_bst_censo/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/11_mixto_septiembre_2024_bst_red_p2p_uuid/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/18_mixto_enero_2022_quicktree_urjcflights/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/05_impl_enero_2026_grafos_arboles_iterador/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/05_impl_enero_2026_grafos_arboles_iterador/esqueletos_existentes/implementacion_esqueleto/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/26_pendiente_septiembre_2024_pdf_escaneado/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/09_mixto_junio_2025_iteradores_red_electrica/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/13_mixto_junio_2024_hipergrafo_synthetic_intel/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/13_mixto_junio_2024_hipergrafo_synthetic_intel/esqueletos_existentes/hipergrafo/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/13_mixto_junio_2024_hipergrafo_synthetic_intel/esqueletos_existentes/hipergrafo_zip/Hipergrafo/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/19_mixto_febrero_2021_checkmirror_leftview_rip/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/10_mixto_enero_2025_additional_features_ranking/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/20_impl_diciembre_2020_parcial1_arboles_strings/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/22_mixto_enero_2016_linkedbinarytree_urjcinvest/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/17_mixto_enero_2022_minimum_successor_basketball/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/08_impl_funcionalidades_arboles_perfecto_iterador/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/08_impl_funcionalidades_arboles_perfecto_iterador/esqueletos_existentes/funcionalidades_arboles/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/07_impl_diciembre_2025_euler_descendants_symmetric/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/16_mixto_junio_2022_level_iterator_connection_luces/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/06_impl_diciembre_2025_complementario_grado_identicos/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/06_impl_diciembre_2025_complementario_grado_identicos/esqueletos_existentes/esqueleto/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/06_impl_diciembre_2025_complementario_grado_identicos/esqueletos_existentes/esqueleto_practico_enero_zip/Esqueleto/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/14_mixto_junio_2024_hipergrafo_synthetic_intel_wuolah/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/14_mixto_junio_2024_hipergrafo_synthetic_intel_wuolah/esqueletos_existentes/hipergrafo/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/14_mixto_junio_2024_hipergrafo_synthetic_intel_wuolah/esqueletos_existentes/hipergrafo_zip/Hipergrafo/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/21_mixto_noviembre_2021_isperfect_internalnode_school/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/21_mixto_noviembre_2021_isperfect_internalnode_school/esqueletos_existentes/funcionalidades_arboles/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/21_mixto_noviembre_2021_isperfect_internalnode_school/esqueletos_existentes/funcionalidades_arboles_zip/Funcionalidades-arboles/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/25_mixto_diciembre_2014_indices_hash_arboles_traductor/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/15_mixto_junio_2023_without_sibling_ternario_red_social/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/06_ESQUELETOS_POR_PDF/23_mixto_enero_2018_levelscomplete_efficientdict_alergia/esqueletos_generados/pom.xml" />
+        <option value="$PROJECT_DIR$/03_EXAMENES_CASOS_DE_USO/examen_cu_2026_01/pom.xml" />
+        <option value="$PROJECT_DIR$/03_EXAMENES_CASOS_DE_USO/examen_cu_2026_02/pom.xml" />
+        <option value="$PROJECT_DIR$/03_EXAMENES_CASOS_DE_USO/examen_cu_2026_03/pom.xml" />
+        <option value="$PROJECT_DIR$/02_EXAMENES_IMPLEMENTACION/examen_impl_2026_01/pom.xml" />
+        <option value="$PROJECT_DIR$/02_EXAMENES_IMPLEMENTACION/examen_impl_2026_02/pom.xml" />
+        <option value="$PROJECT_DIR$/02_EXAMENES_IMPLEMENTACION/examen_impl_2026_03/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-25" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,2 @@
+# Hipergrafo
+Un hipergrafo es un grafo cuyas aristas relacionan dos o más nodos entre sí. Además, estas aristas no pueden contener nodos repetidos (no se consideran bucles). El estudiante debe implementar la clase AdjacencyMapUndirectedHyperGraph. Las operaciones deben ser lo más eficientes posibles.
