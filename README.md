@@ -12,6 +12,7 @@ También incluye:
 - `04_TESTS_COMUNES`: criterios y utilidades documentadas para tests.
 - `05_GUIAS_CORRECCION`: rúbricas generales.
 - `06_ESQUELETOS_POR_PDF`: una carpeta por cada PDF de examen, con el nombre explícito de cada ejercicio y copia del esqueleto original cuando existía.
+- `07_ENTRENAMIENTO_INTENSIVO_NUEVOS_EJERCICIOS`: ejercicios nuevos de implementación y casos de uso, más una guía de repaso en Markdown y PDF.
 
 ## Cómo usar
 
