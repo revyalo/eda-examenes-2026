@@ -1,2 +1,0 @@
-# Funcionalidades adicionales en árboles
-
