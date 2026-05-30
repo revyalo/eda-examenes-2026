@@ -1,10 +1,16 @@
-# Indice de ejercicios - Implementacion enero 2026: grafos, arboles e iterador BFS extendido
+# Indice de ejercicios - Practica extra 2026
 
 | Id | Nombre exacto usado en esta organizacion | Tipo | Estructura principal | Clase generada |
 |---|---|---|---|---|
-| E1 | GraphOperations.existeCaminoDeLongitudMenorOIgualAN | implementacion | grafos y recorridos | `GraphOperationsEnero2026` |
-| E2 | GraphOperations.kPower | implementacion | grafos y construccion de grafos | `GraphOperationsKPower` |
-| E3 | TreeOperations.cumplePropiedadesMonticulo | implementacion | arboles binarios y monticulos | `TreeOperationsMonticulo` |
-| E4 | ExtendedBreadthFirstTreeIterator.remove | implementacion | arboles e iteradores | `ExtendedBreadthFirstTreeIteratorRemove` |
+| E1 | `shortestDistanceLessOrEqual` | implementacion | grafos y BFS limitado | `GraphExtraOperations` |
+| E2 | `verticesAtDistanceK` | implementacion | grafos y niveles BFS | `GraphExtraOperations` |
+| E3 | `connectedComponents` | implementacion | grafos y componentes conexas | `GraphExtraOperations` |
+| E4 | `graphDiameter` | implementacion | grafos y BFS desde cada vertice | `GraphExtraOperations` |
+| E5 | `isBipartite` | implementacion | grafos y coloreado por niveles | `GraphExtraOperations` |
+| E6 | `countShortestPaths` | implementacion | grafos y conteo de caminos minimos | `GraphExtraOperations` |
+| E7 | `isAlmostComplete` | implementacion | arbol binario y recorrido por niveles | `TreeExtraOperations` |
+| E8 | `lowestCommonAncestor` | implementacion | arbol binario y posiciones | `TreeExtraOperations` |
+| E9 | `width` | implementacion | arbol general y niveles | `TreeExtraOperations` |
+| E10 | `descendantsAtDistanceK` | implementacion | arbol general y profundidad relativa | `TreeExtraOperations` |
 
-El nombre de cada ejercicio se ha puesto de forma explicita para que puedas localizarlo rapidamente aunque el PDF tenga nombre generico como `Enunciado.pdf`.
+El nombre de cada ejercicio aparece tambien en el `README.md` con un enunciado mas completo.
