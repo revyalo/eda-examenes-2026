@@ -1,0 +1,57 @@
+package es.urjc.grafo.EDA.examen.iteradores;
+
+import es.urjc.grafo.EDA.trees.binaryTrees.LinkedBinaryTree;
+import es.urjc.grafo.EDA.trees.nAryTrees.LinkedTree;
+import es.urjc.grafo.EDA.utils.Position;
+import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class InternalNodeIteratorTest {
+
+    private static <E> List<E> values(Iterator<Position<E>> iterator) {
+        List<E> result = new ArrayList<>();
+        while (iterator.hasNext()) {
+            result.add(iterator.next().getElement());
+        }
+        return result;
+    }
+
+    private static <E> Set<E> valueSet(Iterator<Position<E>> iterator) {
+        return new HashSet<>(values(iterator));
+    }
+
+
+        @Test
+        void nullYArbolVacioSeRechazan() {
+            assertThrows(IllegalArgumentException.class, () -> new InternalNodeIterator<Integer>(null));
+            assertThrows(IllegalArgumentException.class, () -> new InternalNodeIterator<>(new LinkedBinaryTree<Integer>()));
+        }
+
+        @Test
+        void raizUnicaNoEsInterna() {
+            LinkedBinaryTree<Integer> tree = new LinkedBinaryTree<>();
+            tree.addRoot(10);
+            assertFalse(new InternalNodeIterator<>(tree).hasNext());
+        }
+
+        @Test
+        void devuelveTodosLosNodosInternos() {
+            LinkedBinaryTree<Integer> tree = new LinkedBinaryTree<>();
+            Position<Integer> root = tree.addRoot(1);
+            Position<Integer> left = tree.insertLeft(root, 2);
+            Position<Integer> right = tree.insertRight(root, 3);
+            tree.insertLeft(left, 4);
+            tree.insertRight(left, 5);
+            tree.insertRight(right, 6);
+
+            assertEquals(Set.of(1, 2, 3), valueSet(new InternalNodeIterator<>(tree)));
+        }
+
+}

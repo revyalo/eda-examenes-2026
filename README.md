@@ -1,18 +1,28 @@
 # EDA Exámenes 2026
 
-Este directorio contiene material nuevo de práctica para EDA, separado en dos bloques:
+## Empieza aquí
 
-- `02_EXAMENES_IMPLEMENTACION`: ejercicios para completar métodos internos o algoritmos sobre estructuras.
-- `03_EXAMENES_CASOS_DE_USO`: ejercicios para resolver problemas de dominio usando estructuras ya disponibles.
+La carpeta principal para estudiar ahora es:
 
-También incluye:
+```text
+08_PRACTICA_ORDENADA_POR_PDF
+```
+
+Esa carpeta corrige la organización anterior y separa lo importante en dos bloques limpios:
+
+- `01_IMPLEMENTACION_POR_PDF`: ejercicios de implementación extraídos de PDFs reales.
+- `02_CASOS_DE_USO_POR_PDF`: casos de uso con proyecto completo, clases de dominio, tests y PDF fuente cuando se conoce.
+- `03_CASOS_DE_USO_LIMPIOS_NUEVOS`: casos nuevos con clases de dominio dadas y clase gestora vacía para que tú declares las estructuras.
+- `04_ITERADORES_POR_PDF`: iteradores de árboles separados desde PDFs y variantes nuevas con tests.
+
+Los casos de uso antiguos de `03_EXAMENES_CASOS_DE_USO` no son la ruta recomendada porque algunos estaban incompletos. Las plantillas, rúbricas y tests comunes quedan como material secundario, no como punto de partida.
+
+## Material de apoyo
 
 - `00_ANALISIS`: informe del material original y descomposición de exámenes mixtos antiguos.
-- `01_PLANTILLAS_BASE`: plantillas reutilizables.
-- `04_TESTS_COMUNES`: criterios y utilidades documentadas para tests.
-- `05_GUIAS_CORRECCION`: rúbricas generales.
-- `06_ESQUELETOS_POR_PDF`: una carpeta por cada PDF de examen, con el nombre explícito de cada ejercicio y copia del esqueleto original cuando existía.
-- `07_ENTRENAMIENTO_INTENSIVO_NUEVOS_EJERCICIOS`: ejercicios nuevos de implementación y casos de uso, más una guía de repaso en Markdown y PDF.
+- `06_ESQUELETOS_POR_PDF`: primera organización por PDF, útil como histórico.
+- `07_ENTRENAMIENTO_INTENSIVO_NUEVOS_EJERCICIOS`: banco extra de entrenamiento.
+- `01_PLANTILLAS_BASE`, `04_TESTS_COMUNES`, `05_GUIAS_CORRECCION`: material interno/secundario.
 
 ## Cómo usar
 
@@ -30,22 +40,31 @@ Para localizar un ejercicio antiguo concreto por PDF, empieza por:
 EDA_Examenes_2026/06_ESQUELETOS_POR_PDF/INDICE_GENERAL_PDFS.md
 ```
 
-## Ejercicios incluidos
+## Verificación
 
-Implementación:
+La carpeta `08_PRACTICA_ORDENADA_POR_PDF` contiene 38 proyectos Maven:
 
-- `examen_impl_2026_01`: árboles binarios.
-- `examen_impl_2026_02`: mapas hash.
-- `examen_impl_2026_03`: grafos.
+- 7 de implementación.
+- 13 de casos de uso por PDF.
+- 6 casos de uso limpios nuevos.
+- 12 ejercicios de iteradores.
 
-Casos de uso:
+Resultado de verificación:
 
-- `examen_cu_2026_01`: plan de evacuación.
-- `examen_cu_2026_02`: organigrama.
-- `examen_cu_2026_03`: archivo de incidencias.
+- Compilación: 20/20 proyectos compilan.
+- Tests: 93 ejecutados.
+- Fallos por TODO esperado: 93.
+- Fallos por dependencias, paquetes o clases faltantes: 0.
 
-## Próximos pasos recomendados
+Además, la carpeta de iteradores compila 12/12 proyectos. Sus tests iniciales ejecutan 27 pruebas: 1 pasa porque el recorrido venía dado en el esqueleto original y 26 fallan por TODO esperado.
 
-1. Revisar primero `00_ANALISIS/INFORME_ANALISIS.md`.
-2. Resolver un ejercicio de implementación y ejecutar tests.
-3. Resolver un caso de uso y comparar el estilo de diseño con las rúbricas.
+Consulta `08_PRACTICA_ORDENADA_POR_PDF/RESULTADOS_VERIFICACION.md`.
+
+<!-- iteradores-por-pdf:start -->
+## Carpeta de iteradores
+
+Dentro de `08_PRACTICA_ORDENADA_POR_PDF/04_ITERADORES_POR_PDF` tienes una colección separada de
+iteradores de árboles con esqueletos Maven y tests: `ExtendedBreadthFirstTreeIterator.remove`,
+`ReverseInordenBTIterator`, `InternalNodeIterator`, `WithoutSiblingIterator`, `LevelIterator` y
+variantes nuevas de práctica.
+<!-- iteradores-por-pdf:end -->
