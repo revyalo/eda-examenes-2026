@@ -15,6 +15,9 @@ Estos ejercicios estan pensados para evitar el problema de esqueletos raros:
 4. `04_red_p2p_limpia`
 5. `05_urjc_flights_limpio`
 6. `06_hospital_triaje_limpio`
+7. `07_practica_extra_10_casos`
+
+El proyecto `07_practica_extra_10_casos` contiene 10 casos de uso nuevos en un unico proyecto Maven, para practicar con enunciados mas largos sin crear mas carpetas de categoria.
 
 ## Ejecutar
 

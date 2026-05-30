@@ -12,6 +12,7 @@ Empieza aquí si quieres practicar cómo elegir estructuras.
 4. `CASOS_DE_USO/LIMPIOS/04_red_p2p_limpia`
 5. `CASOS_DE_USO/LIMPIOS/05_urjc_flights_limpio`
 6. `CASOS_DE_USO/LIMPIOS/06_hospital_triaje_limpio`
+7. `CASOS_DE_USO/LIMPIOS/07_practica_extra_10_casos`
 
 ## 2. Implementación
 
@@ -20,6 +21,7 @@ Empieza aquí si quieres practicar cómo elegir estructuras.
 3. `IMPLEMENTACION/03_diciembre_2025_euler_descendants_symmetric`
 4. `IMPLEMENTACION/05_arboles_perfecto_iterador`
 5. `IMPLEMENTACION/04_hipergrafo`
+6. `IMPLEMENTACION/08_practica_extra_10_ejercicios`
 
 ## 3. Iteradores
 

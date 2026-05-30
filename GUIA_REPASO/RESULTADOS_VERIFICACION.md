@@ -4,11 +4,11 @@ Fecha: 2026-05-30.
 
 ## Alcance
 
-- Proyectos de implementación por PDF: 7.
+- Proyectos de implementación por PDF/práctica extra: 8.
 - Proyectos de casos de uso por PDF: 13.
-- Proyectos de casos de uso limpios nuevos: 6.
+- Proyectos de casos de uso limpios nuevos: 7.
 - Proyectos de iteradores por PDF/práctica extra: 12.
-- Total: 38 proyectos Maven.
+- Total: 40 proyectos Maven.
 
 ## Compilación
 
@@ -20,7 +20,7 @@ mvn -q -DskipTests test
 
 Resultado:
 
-- Proyectos compilados: 38.
+- Proyectos compilados: 40.
 - Errores de compilación: 0.
 
 ## Tests
@@ -33,19 +33,19 @@ mvn -q -Dmaven.test.failure.ignore=true test
 
 Resultado:
 
-- Tests ejecutados: 93.
+- Tests ejecutados: 113.
 - Failures: 4.
-- Errors: 89.
+- Errors: 109.
 - Skipped: 0.
-- Fallos por TODO esperado: 93.
+- Fallos por TODO esperado: 113.
 - Fallos por dependencias, imports, clases faltantes o estructura Maven: 0.
 
 Casos limpios nuevos:
 
-- Tests ejecutados: 9.
+- Tests ejecutados: 19.
 - Failures: 0.
-- Errors: 9.
-- Fallos por TODO esperado: 9.
+- Errors: 19.
+- Fallos por TODO esperado: 19.
 - Fallos por dependencias, imports, clases faltantes o estructura Maven: 0.
 
 Iteradores:

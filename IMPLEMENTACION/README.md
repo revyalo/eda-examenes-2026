@@ -11,6 +11,9 @@ Ejercicios de implementación pura. Aquí debes completar métodos internos de e
 5. `04_hipergrafo`
 6. `06_junio_2025_iteradores_red_electrica_parte_impl`
 7. `07_septiembre_2024_bst_remove_half_nodes_parte_impl`
+8. `08_practica_extra_10_ejercicios`
+
+El proyecto `08_practica_extra_10_ejercicios` contiene 10 ejercicios nuevos de grafos y arboles, de dificultad similar o superior al examen de implementacion.
 
 ## Cómo usar
 
