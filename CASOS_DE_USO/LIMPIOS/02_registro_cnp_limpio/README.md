@@ -1,32 +1,34 @@
 # Registro CNP limpio: opositores, ranking y rangos
 
-        ## Objetivo
+## Objetivo
 
-        Mapas por DNI, ranking por nota, indices por provincia y consultas por rango.
+Gestionar opositores por DNI, provincia, nota media y ranking.
 
-        ## Que esta ya dado
+## Que esta ya dado
 
-        - Clases de dominio completas en `src/main/java/es/urjc/grafo/EDA/examen/casoslimpios`.
-        - Clase gestora con constructor vacio, comentario de atributos recomendados y metodos `TODO`.
-        - Tests completos en `src/test/java`.
+- `Opositor`: clase entidad simple.
+- `Notas`: clase entidad simple con metodo `media()`.
+- `RegistroCNPLimpio`: clase gestora vacia, con constructor y metodos `TODO`.
+- Tests completos en `src/test/java`.
 
-        ## Que debes hacer tu
+## Que debes hacer tu
 
-        1. Declarar los atributos privados que necesites.
-        2. Inicializarlos en el constructor.
-        3. Implementar los metodos publicos sin cambiar firmas.
+1. Declarar los atributos privados que necesites.
+2. Inicializarlos en el constructor.
+3. Implementar los metodos publicos sin cambiar firmas.
+4. Mantener coherentes tus atributos cuando cambien las notas.
 
-        ## Estructuras recomendadas
+## Pistas
 
-        - `HashMap<String, Opositor> para DNI`
-- `HashMap<String, HashSet<String>> para provincia`
-- `TreeMap<Double, HashSet<String>> para nota media`
-- `TreeSet<Opositor> para ranking`
+- Necesitas evitar DNIs duplicados.
+- Necesitas obtener opositores por provincia.
+- Necesitas consultar rangos de nota y un top ordenado.
+- El esqueleto no trae estructuras internas ya declaradas.
 
-        ## Ejecutar
+## Ejecutar
 
-        ```bash
-        mvn test
-        ```
+```bash
+mvn test
+```
 
-        No hay soluciones incluidas.
+No hay soluciones incluidas.

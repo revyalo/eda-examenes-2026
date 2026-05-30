@@ -1,32 +1,35 @@
 # CNI limpio: contactos indirectos
 
-        ## Objetivo
+## Objetivo
 
-        Grafo manual de personas, contactos por fecha/minutos y BFS limitado.
+Gestionar agentes y contactos directos para consultar cadenas indirectas.
 
-        ## Que esta ya dado
+## Que esta ya dado
 
-        - Clases de dominio completas en `src/main/java/es/urjc/grafo/EDA/examen/casoslimpios`.
-        - Clase gestora con constructor vacio, comentario de atributos recomendados y metodos `TODO`.
-        - Tests completos en `src/test/java`.
+- `Agente`: clase entidad simple.
+- `Contacto`: clase entidad simple con las dos personas, fecha y minutos.
+- `CNIContactosLimpio`: clase gestora vacia, con constructor y metodos `TODO`.
+- Tests completos en `src/test/java`.
 
-        ## Que debes hacer tu
+## Que debes hacer tu
 
-        1. Declarar los atributos privados que necesites.
-        2. Inicializarlos en el constructor.
-        3. Implementar los metodos publicos sin cambiar firmas.
+1. Declarar los atributos privados que necesites.
+2. Inicializarlos en el constructor.
+3. Implementar los metodos publicos sin cambiar firmas.
+4. Usar `Contacto` como dato de entrada del ejercicio; no hace falta inventar otra clase.
 
-        ## Estructuras recomendadas
+## Pistas
 
-        - `HashMap<Integer, Agente> para agentes`
-- `HashMap<Integer, HashSet<Integer>> para contactos`
-- `TreeMap<LocalDate, HashSet<Contacto>> para fechas`
-- `HashSet<Integer> para visitados en BFS`
+- Necesitas saber que agentes existen.
+- Necesitas saber si dos agentes han tenido contacto directo.
+- Para `grupoDeRiesgo`, solo cuentan contactos con fecha suficiente y minutos suficientes.
+- Para `posibleCadena`, piensa en un recorrido por niveles con limite de saltos.
+- El esqueleto no impone ningun `TreeMap` ni ningun indice concreto.
 
-        ## Ejecutar
+## Ejecutar
 
-        ```bash
-        mvn test
-        ```
+```bash
+mvn test
+```
 
-        No hay soluciones incluidas.
+No hay soluciones incluidas.

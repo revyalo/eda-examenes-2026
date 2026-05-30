@@ -1,32 +1,34 @@
 # URJCNetServices limpio: routers, mensajes y TTL
 
-        ## Objetivo
+## Objetivo
 
-        Grafo manual con routers, mensajes por fecha y consultas por distancia.
+Grafo manual con routers, mensajes por fecha y consultas por distancia.
 
-        ## Que esta ya dado
+## Que esta ya dado
 
-        - Clases de dominio completas en `src/main/java/es/urjc/grafo/EDA/examen/casoslimpios`.
-        - Clase gestora con constructor vacio, comentario de atributos recomendados y metodos `TODO`.
-        - Tests completos en `src/test/java`.
+- `Router`: clase entidad simple.
+- `Mensaje`: clase entidad simple.
+- `URJCNetServicesLimpio`: clase gestora vacia, con constructor y metodos `TODO`.
+- Tests completos en `src/test/java`.
 
-        ## Que debes hacer tu
+## Que debes hacer tu
 
-        1. Declarar los atributos privados que necesites.
-        2. Inicializarlos en el constructor.
-        3. Implementar los metodos publicos sin cambiar firmas.
+1. Declarar los atributos privados que necesites.
+2. Inicializarlos en el constructor.
+3. Implementar los metodos publicos sin cambiar firmas.
+4. Elegir tus propias estructuras internas, sin que el esqueleto imponga una solucion.
 
-        ## Estructuras recomendadas
+## Pistas
 
-        - `HashMap<String, Router> para buscar routers por id`
-- `HashMap<String, HashSet<String>> para conexiones no dirigidas`
-- `HashMap<String, Mensaje> para mensajes por id`
-- `TreeMap<LocalDateTime, HashSet<String>> para mensajes por fecha`
+- Necesitas buscar routers por id.
+- Necesitas representar conexiones no dirigidas entre routers.
+- Necesitas guardar mensajes y filtrar por fecha.
+- Puedes usar las estructuras permitidas por la asignatura si te ayudan, pero no hay atributos ya creados.
 
-        ## Ejecutar
+## Ejecutar
 
-        ```bash
-        mvn test
-        ```
+```bash
+mvn test
+```
 
-        No hay soluciones incluidas.
+No hay soluciones incluidas.

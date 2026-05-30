@@ -1,32 +1,33 @@
 # Hospital limpio: triaje y especialidades
 
-        ## Objetivo
+## Objetivo
 
-        PriorityQueue, indices por SIP, especialidad y llegada.
+Gestionar pacientes, prioridades de triaje y busquedas por especialidad/fecha.
 
-        ## Que esta ya dado
+## Que esta ya dado
 
-        - Clases de dominio completas en `src/main/java/es/urjc/grafo/EDA/examen/casoslimpios`.
-        - Clase gestora con constructor vacio, comentario de atributos recomendados y metodos `TODO`.
-        - Tests completos en `src/test/java`.
+- `Paciente`: clase entidad simple.
+- `HospitalTriajeLimpio`: clase gestora vacia, con constructor y metodos `TODO`.
+- Tests completos en `src/test/java`.
 
-        ## Que debes hacer tu
+## Que debes hacer tu
 
-        1. Declarar los atributos privados que necesites.
-        2. Inicializarlos en el constructor.
-        3. Implementar los metodos publicos sin cambiar firmas.
+1. Declarar los atributos privados que necesites.
+2. Inicializarlos en el constructor.
+3. Implementar los metodos publicos sin cambiar firmas.
+4. Mantener coherentes tus atributos cuando cambie la gravedad de un paciente.
 
-        ## Estructuras recomendadas
+## Pistas
 
-        - `HashMap<String, Paciente> para pacientes`
-- `HashMap<String, HashSet<String>> para especialidades`
-- `TreeMap<LocalDateTime, HashSet<String>> para llegadas`
-- `PriorityQueue<Paciente> para triaje`
+- Necesitas buscar pacientes por SIP.
+- Necesitas obtener el siguiente paciente por gravedad y llegada.
+- Necesitas consultar por especialidad y por fecha de llegada.
+- El esqueleto no trae estructuras internas ya declaradas.
 
-        ## Ejecutar
+## Ejecutar
 
-        ```bash
-        mvn test
-        ```
+```bash
+mvn test
+```
 
-        No hay soluciones incluidas.
+No hay soluciones incluidas.

@@ -1,32 +1,34 @@
 # Red P2P limpia: nodos, conexiones y archivos
 
-        ## Objetivo
+## Objetivo
 
-        Grafo manual con indices directos e inversos de archivos.
+Gestionar nodos P2P, conexiones y busqueda de archivos con TTL.
 
-        ## Que esta ya dado
+## Que esta ya dado
 
-        - Clases de dominio completas en `src/main/java/es/urjc/grafo/EDA/examen/casoslimpios`.
-        - Clase gestora con constructor vacio, comentario de atributos recomendados y metodos `TODO`.
-        - Tests completos en `src/test/java`.
+- `Nodo`: clase entidad simple.
+- `RedP2PLimpia`: clase gestora vacia, con constructor y metodos `TODO`.
+- Tests completos en `src/test/java`.
 
-        ## Que debes hacer tu
+## Que debes hacer tu
 
-        1. Declarar los atributos privados que necesites.
-        2. Inicializarlos en el constructor.
-        3. Implementar los metodos publicos sin cambiar firmas.
+1. Declarar los atributos privados que necesites.
+2. Inicializarlos en el constructor.
+3. Implementar los metodos publicos sin cambiar firmas.
+4. Mantener consistencia al apagar un nodo.
 
-        ## Estructuras recomendadas
+## Pistas
 
-        - `HashMap<String, Nodo> para nodos`
-- `HashMap<String, HashSet<String>> para conexiones`
-- `HashMap<String, HashSet<String>> para archivos por nodo`
-- `HashMap<String, HashSet<String>> para nodos por archivo`
+- Necesitas buscar nodos por id.
+- Necesitas representar conexiones no dirigidas.
+- Necesitas saber que archivos tiene cada nodo.
+- `buscarArchivo` se resuelve con una busqueda limitada por TTL.
+- El esqueleto no trae estructuras internas ya declaradas.
 
-        ## Ejecutar
+## Ejecutar
 
-        ```bash
-        mvn test
-        ```
+```bash
+mvn test
+```
 
-        No hay soluciones incluidas.
+No hay soluciones incluidas.

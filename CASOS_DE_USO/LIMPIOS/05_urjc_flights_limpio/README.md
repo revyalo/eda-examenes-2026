@@ -1,33 +1,35 @@
 # URJCFlights limpio: vuelos dirigidos y escalas
 
-        ## Objetivo
+## Objetivo
 
-        Grafo dirigido con vuelos por codigo y por fecha.
+Gestionar aeropuertos, vuelos dirigidos y consultas con escalas.
 
-        ## Que esta ya dado
+## Que esta ya dado
 
-        - Clases de dominio completas en `src/main/java/es/urjc/grafo/EDA/examen/casoslimpios`.
-        - Clase gestora con constructor vacio, comentario de atributos recomendados y metodos `TODO`.
-        - Tests completos en `src/test/java`.
+- `Aeropuerto`: clase entidad simple.
+- `Vuelo`: clase entidad simple.
+- `URJCFlightsLimpio`: clase gestora vacia, con constructor y metodos `TODO`.
+- Tests completos en `src/test/java`.
 
-        ## Que debes hacer tu
+## Que debes hacer tu
 
-        1. Declarar los atributos privados que necesites.
-        2. Inicializarlos en el constructor.
-        3. Implementar los metodos publicos sin cambiar firmas.
+1. Declarar los atributos privados que necesites.
+2. Inicializarlos en el constructor.
+3. Implementar los metodos publicos sin cambiar firmas.
+4. Recordar que las conexiones son dirigidas: origen -> destino.
 
-        ## Estructuras recomendadas
+## Pistas
 
-        - `HashMap<String, Aeropuerto> para aeropuertos`
-- `HashMap<String, Vuelo> para vuelos`
-- `HashMap<String, HashSet<String>> para salidas`
-- `HashMap<String, HashSet<String>> para entradas`
-- `TreeMap<LocalDateTime, HashSet<String>> para fechas`
+- Necesitas buscar aeropuertos por codigo.
+- Necesitas comprobar vuelos directos.
+- Necesitas comprobar conexion con maximo de escalas.
+- Necesitas filtrar vuelos por rango de fechas.
+- El esqueleto no impone ninguna estructura concreta.
 
-        ## Ejecutar
+## Ejecutar
 
-        ```bash
-        mvn test
-        ```
+```bash
+mvn test
+```
 
-        No hay soluciones incluidas.
+No hay soluciones incluidas.
