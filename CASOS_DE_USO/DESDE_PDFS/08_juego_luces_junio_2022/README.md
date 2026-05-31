@@ -12,8 +12,6 @@ Este proyecto procede de un PDF antiguo de examen. La copia del enunciado esta e
 
 ## Que debe completar el alumno
 
-Completa los `TODO` de la clase principal manteniendo sincronizados todos los indices.
-
-Entrena grafo manual con `HashMap<String, HashSet<String>>` y estados en `HashSet`.
+Completa los `TODO` de la clase principal. Debes decidir como representar bombillas, conexiones, estados y eventos.
 
 No hay soluciones incluidas.

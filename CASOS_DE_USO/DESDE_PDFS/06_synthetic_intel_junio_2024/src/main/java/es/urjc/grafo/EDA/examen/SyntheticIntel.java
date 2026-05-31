@@ -1,20 +1,8 @@
 package es.urjc.grafo.EDA.examen;
 
-    import java.time.LocalDate;
-    import java.time.LocalDateTime;
-    import java.util.HashMap;
-    import java.util.HashSet;
-    import java.util.PriorityQueue;
-    import java.util.TreeMap;
-    import java.util.TreeSet;
-
     public class SyntheticIntel {
 
-        private final HashMap<String, ModeloIA> modelos = new HashMap<>();
-private final HashMap<String, HashSet<String>> dependencias = new HashMap<>();
-private final HashMap<String, HashSet<String>> modelosPorEmpresa = new HashMap<>();
-private final TreeMap<Double, HashSet<String>> modelosPorPrecision = new TreeMap<>();
-private final TreeSet<ModeloIA> rankingPrecision = new TreeSet<>();
+        // TODO: define aqui los atributos privados necesarios.
 
 
         public boolean addModelo(ModeloIA modelo) {

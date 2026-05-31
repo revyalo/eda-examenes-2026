@@ -5,7 +5,7 @@ Ejercicios para practicar modelado con estructuras permitidas: `HashMap`, `HashS
 ## Carpetas
 
 - `LIMPIOS`: recomendada para empezar. Tienen dominio completo y gestor vacío para que tú declares las estructuras.
-- `DESDE_PDFS`: casos reconstruidos desde exámenes reales.
+- `DESDE_PDFS`: casos reconstruidos desde exámenes reales. Mantienen dominio, cabeceras y tests, pero la clase gestora no debe traer ya decididos los mapas, conjuntos, rankings o colas que tienes que elegir.
 
 ## Orden recomendado
 

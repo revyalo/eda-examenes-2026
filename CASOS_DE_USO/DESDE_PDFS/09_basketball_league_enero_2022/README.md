@@ -12,8 +12,6 @@ Este proyecto procede de un PDF antiguo de examen. La copia del enunciado esta e
 
 ## Que debe completar el alumno
 
-Completa los `TODO` de la clase principal manteniendo sincronizados todos los indices.
-
-Practica `TreeSet` y `TreeMap` con reindexado tras cambios.
+Completa los `TODO` de la clase principal. Debes decidir como representar equipos, clasificacion y consultas por puntos.
 
 No hay soluciones incluidas.

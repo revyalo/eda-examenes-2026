@@ -1,20 +1,8 @@
 package es.urjc.grafo.EDA.examen;
 
-    import java.time.LocalDate;
-    import java.time.LocalDateTime;
-    import java.util.HashMap;
-    import java.util.HashSet;
-    import java.util.PriorityQueue;
-    import java.util.TreeMap;
-    import java.util.TreeSet;
-
     public class RedElectricaEspanola {
 
-        private final HashMap<String, Area> areas = new HashMap<>();
-private final HashMap<String, CentralElectrica> centrales = new HashMap<>();
-private final HashMap<String, HashSet<String>> red = new HashMap<>();
-private final HashMap<String, HashSet<String>> centralesPorArea = new HashMap<>();
-private final TreeSet<CentralElectrica> rankingPotencia = new TreeSet<>();
+        // TODO: define aqui los atributos privados necesarios.
 
 
         public boolean addArea(Area area) {

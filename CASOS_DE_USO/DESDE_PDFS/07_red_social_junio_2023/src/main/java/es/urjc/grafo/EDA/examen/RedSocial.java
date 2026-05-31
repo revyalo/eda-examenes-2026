@@ -1,20 +1,8 @@
 package es.urjc.grafo.EDA.examen;
 
-    import java.time.LocalDate;
-    import java.time.LocalDateTime;
-    import java.util.HashMap;
-    import java.util.HashSet;
-    import java.util.PriorityQueue;
-    import java.util.TreeMap;
-    import java.util.TreeSet;
-
     public class RedSocial {
 
-        private final HashMap<String, Persona> personas = new HashMap<>();
-private final HashMap<String, HashSet<String>> seguidos = new HashMap<>();
-private final HashMap<String, HashSet<String>> seguidores = new HashMap<>();
-private final HashMap<String, HashSet<String>> personasPorCiudad = new HashMap<>();
-private final TreeSet<Persona> rankingPopularidad = new TreeSet<>();
+        // TODO: define aqui los atributos privados necesarios.
 
 
         public boolean addPersona(Persona persona) {

@@ -1,19 +1,8 @@
 package es.urjc.grafo.EDA.examen;
 
-    import java.time.LocalDate;
-    import java.time.LocalDateTime;
-    import java.util.HashMap;
-    import java.util.HashSet;
-    import java.util.PriorityQueue;
-    import java.util.TreeMap;
-    import java.util.TreeSet;
-
     public class CensoURJC {
 
-        private final HashMap<String, Habitante> habitantes = new HashMap<>();
-private final HashMap<String, HashSet<String>> habitantesPorMunicipio = new HashMap<>();
-private final TreeMap<Integer, HashSet<String>> habitantesPorEdad = new TreeMap<>();
-private final TreeSet<Habitante> rankingEdad = new TreeSet<>();
+        // TODO: define aqui los atributos privados necesarios.
 
 
         public boolean addHabitante(Habitante habitante) {

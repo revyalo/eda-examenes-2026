@@ -12,8 +12,6 @@ Este proyecto procede de un PDF antiguo de examen. La copia del enunciado esta e
 
 ## Que debe completar el alumno
 
-Completa los `TODO` de la clase principal manteniendo sincronizados todos los indices.
-
-Cada alta, baja o cambio debe tocar todos los indices.
+Completa los `TODO` de la clase principal. Debes decidir que indices privados necesitas para altas, bajas, municipios, edades y cambios de residencia.
 
 No hay soluciones incluidas.

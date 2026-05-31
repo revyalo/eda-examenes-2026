@@ -1,19 +1,8 @@
 package es.urjc.grafo.EDA.examen;
 
-    import java.time.LocalDate;
-    import java.time.LocalDateTime;
-    import java.util.HashMap;
-    import java.util.HashSet;
-    import java.util.PriorityQueue;
-    import java.util.TreeMap;
-    import java.util.TreeSet;
-
     public class PlayersRanking {
 
-        private final HashMap<String, Player> playersByNick = new HashMap<>();
-private final TreeSet<Player> rankingByScore = new TreeSet<>();
-private final TreeSet<Player> rankingByName = new TreeSet<>(new NameComparator());
-private final TreeMap<Integer, HashSet<String>> playersByScore = new TreeMap<>();
+        // TODO: define aqui los atributos privados necesarios.
 
 
         public boolean addPlayer(Player player) {

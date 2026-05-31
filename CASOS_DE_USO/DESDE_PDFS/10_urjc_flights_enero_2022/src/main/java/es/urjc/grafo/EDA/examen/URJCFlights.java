@@ -1,20 +1,10 @@
 package es.urjc.grafo.EDA.examen;
 
-    import java.time.LocalDate;
-    import java.time.LocalDateTime;
-    import java.util.HashMap;
-    import java.util.HashSet;
-    import java.util.PriorityQueue;
-    import java.util.TreeMap;
-    import java.util.TreeSet;
+import java.time.LocalDateTime;
 
     public class URJCFlights {
 
-        private final HashMap<String, Airport> airports = new HashMap<>();
-private final HashMap<String, Flight> flights = new HashMap<>();
-private final HashMap<String, HashSet<String>> outgoing = new HashMap<>();
-private final HashMap<String, HashSet<String>> incoming = new HashMap<>();
-private final TreeMap<LocalDateTime, HashSet<String>> flightsByTime = new TreeMap<>();
+        // TODO: define aqui los atributos privados necesarios.
 
 
         public boolean addAirport(Airport airport) {

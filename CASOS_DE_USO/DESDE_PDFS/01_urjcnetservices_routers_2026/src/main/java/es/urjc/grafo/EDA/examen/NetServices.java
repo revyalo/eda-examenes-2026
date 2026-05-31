@@ -1,14 +1,8 @@
 package es.urjc.grafo.EDA.examen;
 
-import es.urjc.grafo.EDA.graphs.Vertex;
-import es.urjc.grafo.EDA.trees.Tree;
-import es.urjc.grafo.EDA.utils.Position;
-
-import java.util.LinkedList;
-import java.util.List;
-
 public class NetServices {
 
+    // TODO: define aqui los atributos privados necesarios para representar la red.
 
     /**
      * Añade un router a la red.
@@ -51,51 +45,5 @@ public class NetServices {
         throw new UnsupportedOperationException("Not implemented yet");
     }
 
-    /**
-     * Comprueba si la red es conexa.
-     *
-     * @return true si la red es conexa, false en caso contrario.
-     */
-    private boolean isConnected() {
-        // TODO
-        throw new UnsupportedOperationException("Not implemented yet");
-    }
-
-    /**
-     * Calcula el árbol de expansión mínimo de la red.
-     * Para ello, basta con calcular el árbol de expansión para cada nodo de la red
-     * y quedarse con el árbol de menor altura.
-     * El árbol de expansión de un nodo de la red se puede calcular con el
-     * método GraphAlgorithms.expansionTree().
-     *
-     * @return el árbol de expansión mínimo.
-     */
-    private Tree<Vertex<Router>> minimumExpansionTree() {
-        // TODO
-        throw new UnsupportedOperationException("Not implemented yet");
-    }
-
-    /**
-     * Calcula la altura de un árbol.
-     *
-     * @param tree el árbol del que se quiere calcular la altura.
-     * @return la altura del árbol.
-     */
-    private int height(Tree<Vertex<Router>> tree) {
-        // BFS adaptado para calcular la altura de un árbol.
-        List<Position<Vertex<Router>>> currentLevel = new LinkedList<>();
-        currentLevel.addLast(tree.root());
-        int height = 0;
-        while (!currentLevel.isEmpty()) {
-            List<Position<Vertex<Router>>> nextLevel = new LinkedList<>();
-            for (Position<Vertex<Router>> node : currentLevel) {
-                for (Position<Vertex<Router>> child : tree.children(node)) {
-                    nextLevel.addLast(child);
-                }
-            }
-            currentLevel = nextLevel;
-            height++;
-        }
-        return height - 1;
-    }
+    // TODO: puedes anadir metodos privados auxiliares si los necesitas.
 }
