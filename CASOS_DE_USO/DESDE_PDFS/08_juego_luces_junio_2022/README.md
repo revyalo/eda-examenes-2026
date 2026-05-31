@@ -1,17 +1,24 @@
-# Juego de las luces
+# PlayOfLight
 
 ## Fuente
 
-Este proyecto procede de un PDF antiguo de examen. La copia del enunciado esta en `enunciado_original.pdf`.
+Basado en el ejercicio 3 del PDF `enunciado_original.pdf`, convocatoria de junio de 2022.
 
 ## Estructura
 
-- Clase principal: `src/main/java/es/urjc/grafo/EDA/examen/JuegoLuces.java`
-- Clases de dominio: `src/main/java/es/urjc/grafo/EDA/examen`
-- Tests: `src/test/java/es/urjc/grafo/EDA/examen/JuegoLucesTest.java`
+- Clase principal: `PlayOfLight`
+- Clase de dominio: `Light`
+- Tests: `PlayOfLightTest`
 
 ## Que debe completar el alumno
 
-Completa los `TODO` de la clase principal. Debes decidir como representar bombillas, conexiones, estados y eventos.
+Debes elegir las estructuras privadas para luces, conexiones y estados, y completar:
+
+- constructor de `PlayOfLight`
+- `changeTheState`
+- `endOfGame`
+- `updateGame`
+- `lightsOn`
+- `lightsOff`
 
 No hay soluciones incluidas.

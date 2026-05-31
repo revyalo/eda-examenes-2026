@@ -1,17 +1,22 @@
-# Synthetic Intel
+# Synthetic_Intel
 
 ## Fuente
 
-Este proyecto procede de un PDF antiguo de examen. La copia del enunciado esta en `enunciado_original.pdf`.
+Basado en el ejercicio 2 del PDF `enunciado_original.pdf`, convocatoria de junio de 2024.
 
 ## Estructura
 
-- Clase principal: `src/main/java/es/urjc/grafo/EDA/examen/SyntheticIntel.java`
-- Clases de dominio: `src/main/java/es/urjc/grafo/EDA/examen`
-- Tests: `src/test/java/es/urjc/grafo/EDA/examen/SyntheticIntelTest.java`
+- Clases principales: `NewBasicED` y `Synthetic_Intel`
+- Clase de dominio: `ID`
+- Tests: `SyntheticIntelTest`
 
 ## Que debe completar el alumno
 
-Completa los `TODO` de la clase principal. Debes decidir como almacenar modelos, empresas, dependencias y consultas por precision.
+Debes elegir las estructuras privadas para guardar relaciones empleado-jefe y construir el organigrama:
+
+- `NewBasicED.team`
+- constructor de `Synthetic_Intel`
+- `levelManagers`
+- `allMyManagers`
 
 No hay soluciones incluidas.

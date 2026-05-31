@@ -2,16 +2,19 @@
 
 ## Fuente
 
-Este proyecto procede de un PDF antiguo de examen. La copia del enunciado esta en `enunciado_original.pdf`.
+Basado en el caso de uso del PDF `enunciado_original.pdf`, convocatoria extraordinaria de junio de 2025.
 
 ## Estructura
 
-- Clase principal: `src/main/java/es/urjc/grafo/EDA/examen/RedElectricaEspanola.java`
-- Clases de dominio: `src/main/java/es/urjc/grafo/EDA/examen`
-- Tests: `src/test/java/es/urjc/grafo/EDA/examen/RedElectricaEspanolaTest.java`
+- Clases principales: `Area` y `RedElectrica`
+- Clase de dominio: `CentralElectrica`
+- Tests: `RedElectricaTest`
 
 ## Que debe completar el alumno
 
-Completa los `TODO` de la clase principal. Debes decidir que atributos privados necesitas para representar centrales, areas, conexiones y consultas eficientes.
+Debes elegir los atributos privados de `Area` y `RedElectrica` y completar los metodos pedidos en el PDF:
+
+- `Area`: `encender`, `apagar`, `anadirCentral`, `encendidas`, `apagadas`, `generacion`, `potenciaMaxima`, `completeShutDown`, `maxEnergy`.
+- `RedElectrica`: `anadirArea`, `conectarAreas`, `energiaGeneradaActualmente`, `areasActivas`, `colapsoDescontrolado`.
 
 No hay soluciones incluidas.

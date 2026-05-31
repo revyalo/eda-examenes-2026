@@ -1,16 +1,29 @@
 package es.urjc.grafo.EDA.examen;
 
+import java.util.Objects;
 
+public class Persona {
 
-public record Persona(String nick, String ciudad, int popularidad) implements Comparable<Persona> {
+    private final String username;
+
+    public Persona(String username) {
+        this.username = username;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
     @Override
-    public int compareTo(Persona other) {
-
-        int cmp = Integer.compare(other.popularidad(), this.popularidad());
-        if (cmp != 0) {
-            return cmp;
+    public boolean equals(Object o) {
+        if (!(o instanceof Persona other)) {
+            return false;
         }
-        return this.nick().compareTo(other.nick());
+        return Objects.equals(username, other.username);
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(username);
     }
 }

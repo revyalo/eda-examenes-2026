@@ -1,17 +1,23 @@
-# PlayersRanking y NameComparator
+# Ranking de jugadores de ajedrez
 
 ## Fuente
 
-Este proyecto procede de un PDF antiguo de examen. La copia del enunciado esta en `enunciado_original.pdf`.
+Basado en el ejercicio 2 del PDF `enunciado_original.pdf`, convocatoria ordinaria de enero de 2025.
 
 ## Estructura
 
-- Clase principal: `src/main/java/es/urjc/grafo/EDA/examen/PlayersRanking.java`
-- Clases de dominio: `src/main/java/es/urjc/grafo/EDA/examen`
-- Tests: `src/test/java/es/urjc/grafo/EDA/examen/PlayersRankingTest.java`
+- Clases principales: `NameComparator` y `PlayersRanking`
+- Clase de dominio: `Player`
+- Tests: `PlayersRankingTest`
 
 ## Que debe completar el alumno
 
-Completa los `TODO` de la clase principal. Debes decidir que indices privados necesitas para buscar jugadores, ordenar rankings y consultar rangos de puntuacion.
+Debes implementar `NameComparator.compare` y elegir los indices privados de `PlayersRanking` para completar:
+
+- `addNewPlayer`
+- `removePlayer`
+- `playersWithRanking`
+- `modificationRankingPlayer`
+- `allPlayers`
 
 No hay soluciones incluidas.

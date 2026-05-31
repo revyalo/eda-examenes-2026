@@ -1,21 +1,46 @@
 package es.urjc.grafo.EDA.examen;
 
 import org.junit.jupiter.api.Test;
-import java.time.LocalDate;
+
 import java.time.LocalDateTime;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class URJCFlightsTest {
 
-        @Test
-        void vuelosBasicos() {
-            URJCFlights flights = new URJCFlights();
-            assertTrue(flights.addAirport(new Airport("MAD", "Madrid")));
-            assertTrue(flights.addAirport(new Airport("BCN", "Barcelona")));
-            assertTrue(flights.addFlight(new Flight("F1", "MAD", "BCN", LocalDateTime.now())));
-            assertTrue(flights.directFlight("MAD", "BCN"));
-            assertTrue(flights.connectionWithMaxStops("MAD", "BCN", 0));
-            assertNotNull(flights.flightsUntil(LocalDateTime.now().plusDays(1)));
-        }
+    @Test
+    void aeropuertosConexionesVuelosEItinerarios() {
+        URJCFlights flights = new URJCFlights();
+        Airport madrid = new Airport("Madrid");
+        Airport paris = new Airport("Paris");
+        Airport berlin = new Airport("Berlin");
 
+        assertTrue(flights.newAirport(madrid));
+        assertTrue(flights.newAirport(paris));
+        assertTrue(flights.newAirport(berlin));
+        assertFalse(flights.newAirport(new Airport("Madrid")));
+
+        flights.newConnection(madrid, java.util.List.of(new URJCFlights.Connection(paris, 1103)));
+        flights.newConnection(paris, java.util.List.of(new URJCFlights.Connection(berlin, 878)));
+        assertEquals(java.util.Set.of(paris), java.util.Set.copyOf(flights.availableAirportsConnection(madrid)));
+
+        Flight direct = new Flight(madrid, paris, LocalDateTime.of(2026, 1, 1, 10, 0));
+        Flight second = new Flight(paris, berlin, LocalDateTime.of(2026, 1, 1, 14, 0));
+        assertTrue(flights.newFlight(madrid, direct));
+        assertTrue(flights.newFlight(paris, second));
+        assertIterableEquals(java.util.List.of(direct), flights.availableFlights(madrid));
+        assertIterableEquals(java.util.List.of(direct, second), flights.searchItinerary(madrid, berlin));
+        assertNull(flights.searchItinerary(berlin, madrid));
+    }
+
+    @Test
+    void conexionConAeropuertoNoRegistradoLanzaExcepcion() {
+        URJCFlights flights = new URJCFlights();
+        Airport madrid = new Airport("Madrid");
+        Airport paris = new Airport("Paris");
+        assertTrue(flights.newAirport(madrid));
+
+        assertThrows(IllegalArgumentException.class,
+                () -> flights.newConnection(madrid, java.util.List.of(new URJCFlights.Connection(paris, 1103))));
+    }
 }

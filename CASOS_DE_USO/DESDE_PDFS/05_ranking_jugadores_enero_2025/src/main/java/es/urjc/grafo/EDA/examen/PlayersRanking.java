@@ -1,33 +1,31 @@
 package es.urjc.grafo.EDA.examen;
 
-    public class PlayersRanking {
+public class PlayersRanking {
 
-        // TODO: define aqui los atributos privados necesarios.
+    // TODO: define aqui los atributos privados necesarios.
 
-
-        public boolean addPlayer(Player player) {
-            // TODO: insertar un jugador si no existe su nick.
-            throw new UnsupportedOperationException("TODO: addPlayer");
-        }
-
-        public boolean updateScore(String nick, int newScore) {
-            // TODO: actualizar puntuacion y reindexar rankings.
-            throw new UnsupportedOperationException("TODO: updateScore");
-        }
-
-        public Iterable<Player> top(int n) {
-            // TODO: devolver los n mejores jugadores.
-            throw new UnsupportedOperationException("TODO: top");
-        }
-
-        public Iterable<Player> playersBetweenScores(int min, int max) {
-            // TODO: buscar por rango de puntuacion.
-            throw new UnsupportedOperationException("TODO: playersBetweenScores");
-        }
-
-        public Player findByNick(String nick) {
-            // TODO: buscar por identificador.
-            throw new UnsupportedOperationException("TODO: findByNick");
-        }
-
+    public boolean addNewPlayer(Player p) {
+        // TODO: anadir jugador al ranking en O(log n).
+        throw new UnsupportedOperationException("TODO: addNewPlayer");
     }
+
+    public boolean removePlayer(Player p) {
+        // TODO: eliminar jugador del ranking.
+        throw new UnsupportedOperationException("TODO: removePlayer");
+    }
+
+    public Iterable<Player> playersWithRanking(Integer r) {
+        // TODO: devolver jugadores con esa puntuacion ordenados por NameComparator.
+        throw new UnsupportedOperationException("TODO: playersWithRanking");
+    }
+
+    public boolean modificationRankingPlayer(Player p, Integer diferencia) {
+        // TODO: modificar los puntos del jugador y mantener indices coherentes.
+        throw new UnsupportedOperationException("TODO: modificationRankingPlayer");
+    }
+
+    public Iterable<Player> allPlayers() {
+        // TODO: devolver todos los jugadores de mayor a menor puntuacion.
+        throw new UnsupportedOperationException("TODO: allPlayers");
+    }
+}

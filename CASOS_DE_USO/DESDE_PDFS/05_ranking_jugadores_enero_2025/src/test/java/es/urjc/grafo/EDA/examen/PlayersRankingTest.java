@@ -1,24 +1,38 @@
 package es.urjc.grafo.EDA.examen;
 
 import org.junit.jupiter.api.Test;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class PlayersRankingTest {
 
-        @Test
-        void rankingBasico() {
-            PlayersRanking ranking = new PlayersRanking();
-            Player ana = new Player("ana1", "Ana", 20);
-            Player bob = new Player("bob1", "Bob", 15);
-            assertTrue(ranking.addPlayer(ana));
-            assertTrue(ranking.addPlayer(bob));
-            assertFalse(ranking.addPlayer(ana));
-            assertTrue(ranking.updateScore("bob1", 30));
-            assertEquals(bob, ranking.findByNick("bob1"));
-            assertNotNull(ranking.top(2));
-            assertNotNull(ranking.playersBetweenScores(10, 40));
-        }
+    @Test
+    void comparadorOrdenaPorApellidoYNombre() {
+        NameComparator comparator = new NameComparator();
+        assertTrue(comparator.compare(
+                new Player("Ana", "Lopez", 100),
+                new Player("Luis", "Ruiz", 50)) > 0);
+        assertTrue(comparator.compare(
+                new Player("Luis", "Ruiz", 50),
+                new Player("Ana", "Lopez", 100)) < 0);
+        assertEquals(0, comparator.compare(
+                new Player("Ana", "Lopez", 100),
+                new Player("Ana", "Lopez", 200)));
+    }
 
+    @Test
+    void rankingPermiteAltasConsultasYModificaciones() {
+        PlayersRanking ranking = new PlayersRanking();
+        Player ana = new Player("Ana", "Lopez", 10);
+        Player luis = new Player("Luis", "Ruiz", 20);
+
+        assertTrue(ranking.addNewPlayer(ana));
+        assertTrue(ranking.addNewPlayer(luis));
+        assertFalse(ranking.addNewPlayer(new Player("Ana", "Lopez", 30)));
+        assertIterableEquals(java.util.List.of(luis, ana), ranking.allPlayers());
+        assertIterableEquals(java.util.List.of(ana), ranking.playersWithRanking(10));
+        assertTrue(ranking.modificationRankingPlayer(ana, 15));
+        assertIterableEquals(java.util.List.of(ana, luis), ranking.allPlayers());
+        assertTrue(ranking.removePlayer(luis));
+    }
 }

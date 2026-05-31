@@ -1,33 +1,43 @@
 package es.urjc.grafo.EDA.examen;
 
-    public class RedSocial {
+import java.util.Collection;
 
-        // TODO: define aqui los atributos privados necesarios.
+public class RedSocial {
 
+    // TODO: define aqui los atributos privados necesarios.
 
-        public boolean addPersona(Persona persona) {
-            // TODO: registrar persona e indices.
-            throw new UnsupportedOperationException("TODO: addPersona");
-        }
-
-        public boolean seguir(String origen, String destino) {
-            // TODO: anadir relacion dirigida.
-            throw new UnsupportedOperationException("TODO: seguir");
-        }
-
-        public boolean dejarDeSeguir(String origen, String destino) {
-            // TODO: eliminar relacion dirigida.
-            throw new UnsupportedOperationException("TODO: dejarDeSeguir");
-        }
-
-        public boolean sonAmigos(String a, String b) {
-            // TODO: comprobar seguimiento mutuo.
-            throw new UnsupportedOperationException("TODO: sonAmigos");
-        }
-
-        public Iterable<Persona> sugerencias(String nick) {
-            // TODO: devolver amigos de amigos no seguidos.
-            throw new UnsupportedOperationException("TODO: sugerencias");
-        }
-
+    public Persona newProfile(String username) {
+        // TODO: registrar un nuevo perfil unico o devolver null si ya existe.
+        throw new UnsupportedOperationException("TODO: newProfile");
     }
+
+    public boolean wantToBeFollower(Persona follower, Persona followed) {
+        // TODO: hacer que follower siga a followed si ambos estan registrados.
+        throw new UnsupportedOperationException("TODO: wantToBeFollower");
+    }
+
+    public Collection<Persona> followers(Persona p) {
+        // TODO: devolver perfiles que siguen a p.
+        throw new UnsupportedOperationException("TODO: followers");
+    }
+
+    public Collection<Persona> following(Persona p) {
+        // TODO: devolver perfiles a los que sigue p.
+        throw new UnsupportedOperationException("TODO: following");
+    }
+
+    public Collection<Persona> suggestions(Persona p) {
+        // TODO: usuarios que siguen perfiles que p sigue, excluyendo ya seguidos.
+        throw new UnsupportedOperationException("TODO: suggestions");
+    }
+
+    public Collection<Persona> suspiciousBot() {
+        // TODO: devolver perfiles sin seguidores.
+        throw new UnsupportedOperationException("TODO: suspiciousBot");
+    }
+
+    public Collection<Persona> cleanBots() {
+        // TODO: eliminar iterativamente todos los perfiles considerados bots.
+        throw new UnsupportedOperationException("TODO: cleanBots");
+    }
+}

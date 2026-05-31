@@ -1,17 +1,23 @@
-# Censo URJC
+# ElectoralCollege
 
 ## Fuente
 
-Este proyecto procede de un PDF antiguo de examen. La copia del enunciado esta en `enunciado_original.pdf`.
+Basado en el ejercicio 3 del PDF `enunciado_original.pdf`, convocatoria extraordinaria de junio de 2016.
 
 ## Estructura
 
-- Clase principal: `src/main/java/es/urjc/grafo/EDA/examen/CensoURJC.java`
-- Clases de dominio: `src/main/java/es/urjc/grafo/EDA/examen`
-- Tests: `src/test/java/es/urjc/grafo/EDA/examen/CensoURJCTest.java`
+- Clase principal: `ElectoralCollege`
+- Clase de dominio: `Voter`
+- Tests: `ElectoralCollegeTest`
 
 ## Que debe completar el alumno
 
-Completa los `TODO` de la clase principal. Debes decidir que indices privados necesitas para altas, bajas, municipios, edades y cambios de residencia.
+Debes elegir las estructuras privadas para votantes, mesas y busqueda por DNI, y completar:
+
+- `addVoter`
+- `makeStationDistribution`
+- `getAllVoters`
+- `getStationVoters`
+- `getStation`
 
 No hay soluciones incluidas.

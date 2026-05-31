@@ -1,17 +1,21 @@
-# Traductor web
+# Traductor
 
 ## Fuente
 
-Este proyecto procede de un PDF antiguo de examen. La copia del enunciado esta en `enunciado_original.pdf`.
+Basado en el ejercicio 3 del PDF `enunciado_original.pdf`, convocatoria de diciembre de 2014.
 
 ## Estructura
 
-- Clase principal: `src/main/java/es/urjc/grafo/EDA/examen/TraductorWeb.java`
-- Clases de dominio: `src/main/java/es/urjc/grafo/EDA/examen`
-- Tests: `src/test/java/es/urjc/grafo/EDA/examen/TraductorWebTest.java`
+- Clase principal: `Traductor`
+- Clase de dominio: `Traduccion`
+- Tests: `TraductorTest`
 
 ## Que debe completar el alumno
 
-Completa los `TODO` de la clase principal. Debes decidir como almacenar traducciones, palabras por idioma y consultas alfabeticas.
+Debes elegir las estructuras privadas para buscar traducciones por texto castellano e idioma, y completar:
+
+- `anadir`
+- `traducir`
+- `traducciones`
 
 No hay soluciones incluidas.

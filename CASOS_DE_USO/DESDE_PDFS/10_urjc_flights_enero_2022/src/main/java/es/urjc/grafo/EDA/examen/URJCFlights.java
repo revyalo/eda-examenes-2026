@@ -1,35 +1,42 @@
 package es.urjc.grafo.EDA.examen;
 
-import java.time.LocalDateTime;
+import java.util.Collection;
+import java.util.List;
 
-    public class URJCFlights {
+public class URJCFlights {
 
-        // TODO: define aqui los atributos privados necesarios.
+    // TODO: define aqui los atributos privados necesarios.
 
-
-        public boolean addAirport(Airport airport) {
-            // TODO: registrar aeropuerto.
-            throw new UnsupportedOperationException("TODO: addAirport");
-        }
-
-        public boolean addFlight(Flight flight) {
-            // TODO: registrar vuelo dirigido.
-            throw new UnsupportedOperationException("TODO: addFlight");
-        }
-
-        public boolean directFlight(String origin, String destination) {
-            // TODO: comprobar arista directa.
-            throw new UnsupportedOperationException("TODO: directFlight");
-        }
-
-        public boolean connectionWithMaxStops(String origin, String destination, int stops) {
-            // TODO: BFS limitado por escalas.
-            throw new UnsupportedOperationException("TODO: connectionWithMaxStops");
-        }
-
-        public Iterable<Flight> flightsUntil(LocalDateTime time) {
-            // TODO: consulta temporal.
-            throw new UnsupportedOperationException("TODO: flightsUntil");
-        }
-
+    public boolean newAirport(Airport airport) {
+        // TODO: insertar aeropuerto desde el que la compania puede operar.
+        throw new UnsupportedOperationException("TODO: newAirport");
     }
+
+    public void newConnection(Airport origin, List<Connection> connections) {
+        // TODO: anadir conexiones disponibles con distancia; lanzar excepcion si un aeropuerto no existe.
+        throw new UnsupportedOperationException("TODO: newConnection");
+    }
+
+    public boolean newFlight(Airport origin, Flight flight) {
+        // TODO: anadir vuelo si existe conexion con el destino.
+        throw new UnsupportedOperationException("TODO: newFlight");
+    }
+
+    public Collection<Airport> availableAirportsConnection(Airport airport) {
+        // TODO: devolver aeropuertos con los que puede operar airport.
+        throw new UnsupportedOperationException("TODO: availableAirportsConnection");
+    }
+
+    public Collection<Flight> availableFlights(Airport airport) {
+        // TODO: devolver vuelos cuyo origen sea airport.
+        throw new UnsupportedOperationException("TODO: availableFlights");
+    }
+
+    public Collection<Flight> searchItinerary(Airport origin, Airport destination) {
+        // TODO: devolver vuelos necesarios para ir de origin a destination, priorizando directos, o null.
+        throw new UnsupportedOperationException("TODO: searchItinerary");
+    }
+
+    public record Connection(Airport airport, int distance) {
+    }
+}
