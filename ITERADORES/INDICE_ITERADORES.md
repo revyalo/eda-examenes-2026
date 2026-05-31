@@ -19,6 +19,8 @@
 | 10 | `10_extra_between_levels_iterator` | BetweenLevelsIterator | Alta | Ejercicio nuevo de práctica: iterador por niveles acotados. |
 | 11 | `11_extra_breadth_first_even_level_iterator` | BreadthFirstEvenLevelIterator | Alta | Ejercicio nuevo de práctica: BFS filtrando niveles pares. |
 | 12 | `12_extra_path_iterator_to_root` | PathIteratorToRoot | Muy alta | Ejercicio nuevo de práctica: iterador de camino desde un nodo hasta la raíz. |
+| 13 | `18_postorder_remove_iterator` | PostorderRemoveIterator | Muy alta | Simulacro nuevo: iterador postorden con remove. |
+| 14 | `20_general_tree_zigzag_iterator` | GeneralTreeZigZagIterator | Muy alta | Simulacro nuevo: zigzag sobre arbol general. |
 
         ## Orden recomendado
 
@@ -34,6 +36,8 @@
         10. `10_extra_between_levels_iterator`
         11. `11_extra_breadth_first_even_level_iterator`
         12. `12_extra_path_iterator_to_root`
+        13. `18_postorder_remove_iterator`
+        14. `20_general_tree_zigzag_iterator`
 
         Primero domina `hasNext`/`next` sin borrar; después pasa a `remove`, que es donde suelen romperse
         los invariantes del iterador.

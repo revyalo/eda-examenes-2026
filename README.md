@@ -41,14 +41,14 @@ EDA_Examenes_2026/
 
 Proyectos Maven actuales:
 
-- Implementación: 13.
-- Casos de uso: 23.
+- Implementación: 20.
+- Casos de uso: 28.
 - Iteradores: 14.
-- Total: 50.
+- Total: 62.
 
 Compilación verificada:
 
-- 50/50 proyectos compilan con `mvn -q -DskipTests test`.
+- 62/62 proyectos compilan con `mvn -q -DskipTests test`.
 - Los fallos de `mvn test` son fallos esperados por TODO, no por clases faltantes.
 
 ## Reglas

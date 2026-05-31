@@ -16,6 +16,11 @@ Empieza aquí si quieres practicar cómo elegir estructuras.
 8. `CASOS_DE_USO/LIMPIOS/08_red_sensores_incendios`
 9. `CASOS_DE_USO/LIMPIOS/12_red_transportes_urjc`
 10. `CASOS_DE_USO/LIMPIOS/13_plataforma_mensajes`
+11. `CASOS_DE_USO/LIMPIOS/14_urjc_investment`
+12. `CASOS_DE_USO/LIMPIOS/15_synthetic_intel_organigrama`
+13. `CASOS_DE_USO/LIMPIOS/16_alergia_leche_pueblos`
+14. `CASOS_DE_USO/LIMPIOS/17_urjc_network_rip`
+15. `CASOS_DE_USO/LIMPIOS/18_organiser_estudiantes`
 
 ## 2. Implementación
 
@@ -30,6 +35,13 @@ Empieza aquí si quieres practicar cómo elegir estructuras.
 9. `IMPLEMENTACION/16_arbol_binario_frontera`
 10. `IMPLEMENTACION/19_arbol_general_podar_subarboles`
 11. `IMPLEMENTACION/23_arbol_general_diametro`
+12. `IMPLEMENTACION/24_grafos_additional_features`
+13. `IMPLEMENTACION/25_arbol_binario_prefijo`
+14. `IMPLEMENTACION/26_arbol_binario_zurdo`
+15. `IMPLEMENTACION/27_levels_complete`
+16. `IMPLEMENTACION/28_parcial1_antecesors_degree`
+17. `IMPLEMENTACION/29_minimum_successor_tree`
+18. `IMPLEMENTACION/30_more_functionality_mirror_leftview`
 
 ## 3. Iteradores
 

@@ -15,10 +15,15 @@ Ejercicios para practicar modelado con estructuras permitidas: `HashMap`, `HashS
 4. `LIMPIOS/04_red_p2p_limpia`
 5. `LIMPIOS/05_urjc_flights_limpio`
 6. `LIMPIOS/06_hospital_triaje_limpio`
-7. `DESDE_PDFS/01_urjcnetservices_routers_2026`
-8. `DESDE_PDFS/02_oposiciones_cnp`
-9. `DESDE_PDFS/03_cni_interacciones`
-10. `DESDE_PDFS/13_red_p2p_septiembre_2024`
+7. `LIMPIOS/14_urjc_investment`
+8. `LIMPIOS/15_synthetic_intel_organigrama`
+9. `LIMPIOS/16_alergia_leche_pueblos`
+10. `LIMPIOS/17_urjc_network_rip`
+11. `LIMPIOS/18_organiser_estudiantes`
+12. `DESDE_PDFS/01_urjcnetservices_routers_2026`
+13. `DESDE_PDFS/02_oposiciones_cnp`
+14. `DESDE_PDFS/03_cni_interacciones`
+15. `DESDE_PDFS/13_red_p2p_septiembre_2024`
 
 ## Cómo usar
 

@@ -17,10 +17,19 @@ Ejercicios de implementación pura. Aquí debes completar métodos internos de e
 11. `16_arbol_binario_frontera`
 12. `19_arbol_general_podar_subarboles`
 13. `23_arbol_general_diametro`
+14. `24_grafos_additional_features`
+15. `25_arbol_binario_prefijo`
+16. `26_arbol_binario_zurdo`
+17. `27_levels_complete`
+18. `28_parcial1_antecesors_degree`
+19. `29_minimum_successor_tree`
+20. `30_more_functionality_mirror_leftview`
 
 El proyecto `08_practica_extra_10_ejercicios` contiene 10 ejercicios nuevos de grafos y arboles, de dificultad similar o superior al examen de implementacion.
 
 Los proyectos `11`, `12`, `16`, `19` y `23` vienen del simulacro nuevo: son ejercicios sueltos de dificultad alta/muy alta para practicar recorridos adaptados.
+
+Los proyectos `24` a `30` completan ejercicios detectados en capturas/PDFs que faltaban como esqueleto real: grafos `AdditionalFeatures`, prefijo de arbol binario, arbol zurdo, niveles completos, `Parcial1`, ABB minimum/successor y `checkMirror`/`leftView`.
 
 ## Cómo usar
 
