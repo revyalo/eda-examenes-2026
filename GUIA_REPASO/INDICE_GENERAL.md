@@ -13,6 +13,9 @@ Empieza aquí si quieres practicar cómo elegir estructuras.
 5. `CASOS_DE_USO/LIMPIOS/05_urjc_flights_limpio`
 6. `CASOS_DE_USO/LIMPIOS/06_hospital_triaje_limpio`
 7. `CASOS_DE_USO/LIMPIOS/07_practica_extra_10_casos`
+8. `CASOS_DE_USO/LIMPIOS/08_red_sensores_incendios`
+9. `CASOS_DE_USO/LIMPIOS/12_red_transportes_urjc`
+10. `CASOS_DE_USO/LIMPIOS/13_plataforma_mensajes`
 
 ## 2. Implementación
 
@@ -22,6 +25,11 @@ Empieza aquí si quieres practicar cómo elegir estructuras.
 4. `IMPLEMENTACION/05_arboles_perfecto_iterador`
 5. `IMPLEMENTACION/04_hipergrafo`
 6. `IMPLEMENTACION/08_practica_extra_10_ejercicios`
+7. `IMPLEMENTACION/11_grafos_ciclo_mas_corto`
+8. `IMPLEMENTACION/12_grafos_vertices_criticos_basico`
+9. `IMPLEMENTACION/16_arbol_binario_frontera`
+10. `IMPLEMENTACION/19_arbol_general_podar_subarboles`
+11. `IMPLEMENTACION/23_arbol_general_diametro`
 
 ## 3. Iteradores
 
@@ -32,6 +40,8 @@ Empieza aquí si quieres practicar cómo elegir estructuras.
 5. `ITERADORES/02_junio_2025_reverse_inorden`
 6. `ITERADORES/04_junio_2023_without_sibling_iterator`
 7. `ITERADORES/01_enero_2026_extended_breadth_first_remove`
+8. `ITERADORES/18_postorder_remove_iterator`
+9. `ITERADORES/20_general_tree_zigzag_iterator`
 
 ## 4. Casos Desde PDFs
 

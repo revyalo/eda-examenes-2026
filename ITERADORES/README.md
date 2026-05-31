@@ -14,3 +14,8 @@ mvn test
 ```
 
 Que fallen por `UnsupportedOperationException` es normal hasta que completes los TODO.
+
+## Nuevos simulacros añadidos
+
+1. `18_postorder_remove_iterator`
+2. `20_general_tree_zigzag_iterator`
