@@ -1,0 +1,24 @@
+package es.urjc.grafo.EDA.examen.arbolesbinarios.p07_septiembre_2024_bst_remove_half_nodes_parte_impl;
+
+/**
+ * Esqueleto generado a partir del PDF:
+ * PDFS/Implementacion y casos de uso/estructuras-de-datos-avanzadas-examen-septiembre-2024-convocatoria.pdf
+ *
+ * Nombre del ejercicio: AdditionalFeatures.merge sobre BinarySearchTree
+ * Tipo: implementacion
+ * Estructura principal: arboles binarios de busqueda
+ */
+public class BSTAdditionalFeaturesMerge {
+
+    public static final String NOMBRE_EJERCICIO = "AdditionalFeatures.merge sobre BinarySearchTree";
+    public static final String TIPO = "implementacion";
+    public static final String ESTRUCTURA = "arboles binarios de busqueda";
+
+        /**
+     * TODO: completar el metodo correspondiente al ejercicio "AdditionalFeatures.merge sobre BinarySearchTree".
+     * No cambies la firma publica en el esqueleto real del profesor.
+     */
+    public Object merge(Object... parametros) {
+        throw new UnsupportedOperationException("TODO: completar AdditionalFeatures.merge sobre BinarySearchTree");
+    }
+}

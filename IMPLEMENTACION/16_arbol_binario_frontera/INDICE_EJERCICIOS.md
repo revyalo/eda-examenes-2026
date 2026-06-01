@@ -1,3 +1,0 @@
-# Indice de ejercicios
-
-- `BinaryTreeBoundaryOperations`
