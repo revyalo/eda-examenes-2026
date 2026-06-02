@@ -15,9 +15,7 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 ## Ejercicios
 
 - `arboles/p02_diciembre_2025_complementario_grado_identicos/TreeOperations.java`
-- `arboles/p02_diciembre_2025_complementario_grado_identicos/TreeOperationsTreeDegree.java`
 - `arboles/p03_diciembre_2025_euler_descendants_symmetric/TreeOperations.java`
-- `arboles/p03_diciembre_2025_euler_descendants_symmetric/TreeOperationsDescendantsNumber.java`
 - `arboles/p08_practica_extra_10_ejercicios/extra2026/TreeExtraOperations.java`
 - `arboles/p19_arbol_general_podar_subarboles/simulacro/GeneralTreePruneOperations.java`
 - `arboles/p23_arbol_general_diametro/simulacro/GeneralTreeDiameterOperations.java`
@@ -26,8 +24,6 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 ## Tests
 
 - `arboles/p02_diciembre_2025_complementario_grado_identicos/TreeOperationsTest.java`
-- `arboles/p02_diciembre_2025_complementario_grado_identicos/TreeOperationsTreeDegreeTest.java`
-- `arboles/p03_diciembre_2025_euler_descendants_symmetric/TreeOperationsDescendantsNumberTest.java`
 - `arboles/p03_diciembre_2025_euler_descendants_symmetric/TreeOperationsTest.java`
 - `arboles/p08_practica_extra_10_ejercicios/extra2026/TreeExtraOperationsTest.java`
 - `arboles/p19_arbol_general_podar_subarboles/simulacro/GeneralTreePruneOperationsTest.java`
