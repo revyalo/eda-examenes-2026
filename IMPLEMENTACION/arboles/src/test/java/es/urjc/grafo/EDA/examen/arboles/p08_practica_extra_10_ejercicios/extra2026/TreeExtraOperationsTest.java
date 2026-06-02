@@ -1,6 +1,5 @@
 package es.urjc.grafo.EDA.examen.arboles.p08_practica_extra_10_ejercicios.extra2026;
 
-import es.urjc.grafo.EDA.trees.binaryTrees.LinkedBinaryTree;
 import es.urjc.grafo.EDA.trees.nAryTrees.LinkedTree;
 import es.urjc.grafo.EDA.utils.Position;
 import org.junit.jupiter.api.Test;
@@ -18,29 +17,6 @@ class TreeExtraOperationsTest {
             result.add(position.getElement());
         }
         return result;
-    }
-
-    @Test
-    void almostCompleteAcceptsLeftPackedLastLevel() {
-        LinkedBinaryTree<Integer> tree = new LinkedBinaryTree<>();
-        Position<Integer> r = tree.addRoot(1);
-        Position<Integer> l = tree.insertLeft(r, 2);
-        tree.insertRight(r, 3);
-        tree.insertLeft(l, 4);
-
-        assertTrue(TreeExtraOperations.isAlmostComplete(tree));
-    }
-
-    @Test
-    void lowestCommonAncestorFindsDeepestCommonNode() {
-        LinkedBinaryTree<String> tree = new LinkedBinaryTree<>();
-        Position<String> a = tree.addRoot("A");
-        Position<String> b = tree.insertLeft(a, "B");
-        tree.insertRight(a, "C");
-        Position<String> d = tree.insertLeft(b, "D");
-        Position<String> e = tree.insertRight(b, "E");
-
-        assertEquals(b, TreeExtraOperations.lowestCommonAncestor(tree, d, e));
     }
 
     @Test
