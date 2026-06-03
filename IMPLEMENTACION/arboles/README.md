@@ -14,18 +14,20 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 
 ## Ejercicios
 
-- `arboles/p02_diciembre_2025_complementario_grado_identicos/TreeOperations.java`
-- `arboles/p03_diciembre_2025_euler_descendants_symmetric/TreeOperations.java`
-- `arboles/p08_practica_extra_10_ejercicios/extra2026/TreeExtraOperations.java`
-- `arboles/p19_arbol_general_podar_subarboles/simulacro/GeneralTreePruneOperations.java`
-- `arboles/p23_arbol_general_diametro/simulacro/GeneralTreeDiameterOperations.java`
-- `arboles/p28_parcial1_antecesors_degree/arboles/Parcial1.java`
+- `arboles/antecesores_y_grado/Parcial1.java`
+- `arboles/arboles_generales_avanzados/GeneralTreeAdvancedOperations.java`
+- `arboles/diametro_arbol_general/GeneralTreeDiameterOperations.java`
+- `arboles/grado_arbol_general/TreeOperations.java`
+- `arboles/numero_descendientes/TreeOperations.java`
+- `arboles/podar_subarboles_pequenos/GeneralTreePruneOperations.java`
+- `arboles/practica_extra_arboles_2026/TreeExtraOperations.java`
 
 ## Tests
 
-- `arboles/p02_diciembre_2025_complementario_grado_identicos/TreeOperationsTest.java`
-- `arboles/p03_diciembre_2025_euler_descendants_symmetric/TreeOperationsTest.java`
-- `arboles/p08_practica_extra_10_ejercicios/extra2026/TreeExtraOperationsTest.java`
-- `arboles/p19_arbol_general_podar_subarboles/simulacro/GeneralTreePruneOperationsTest.java`
-- `arboles/p23_arbol_general_diametro/simulacro/GeneralTreeDiameterOperationsTest.java`
-- `arboles/p28_parcial1_antecesors_degree/arboles/Parcial1Test.java`
+- `arboles/antecesores_y_grado/Parcial1Test.java`
+- `arboles/arboles_generales_avanzados/GeneralTreeAdvancedOperationsTest.java`
+- `arboles/diametro_arbol_general/GeneralTreeDiameterOperationsTest.java`
+- `arboles/grado_arbol_general/TreeOperationsTest.java`
+- `arboles/numero_descendientes/TreeOperationsTest.java`
+- `arboles/podar_subarboles_pequenos/GeneralTreePruneOperationsTest.java`
+- `arboles/practica_extra_arboles_2026/TreeExtraOperationsTest.java`

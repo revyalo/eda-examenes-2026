@@ -1,6 +1,6 @@
 # Iteradores - Grafos
 
-Proyecto preparado para iteradores de grafos. No habia ejercicios antiguos claros de este bloque.
+Proyecto reservado para ejercicios de iteradores de grafos y entorno comun.
 
 ## Como usarlo
 
@@ -14,8 +14,8 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 
 ## Ejercicios
 
-- Sin ejercicios trasladados por ahora.
+- No hay ejercicios propios todavia; solo entorno comun.
 
 ## Tests
 
-- Sin tests especificos por ahora.
+- No hay tests propios todavia.

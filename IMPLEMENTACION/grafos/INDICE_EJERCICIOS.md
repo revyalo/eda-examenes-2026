@@ -14,22 +14,24 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 
 ## Ejercicios
 
-- `grafos/p01_enero_2026_grafos_arboles_iterador/GraphOperations.java`
-- `grafos/p02_diciembre_2025_complementario_grado_identicos/GraphOperations.java`
-- `grafos/p03_diciembre_2025_euler_descendants_symmetric/GraphOperations.java`
-- `grafos/p04_hipergrafo/HyperGraphOperations.java`
-- `grafos/p08_practica_extra_10_ejercicios/extra2026/GraphExtraOperations.java`
-- `grafos/p11_grafos_ciclo_mas_corto/simulacro/GraphCycleOperations.java`
-- `grafos/p12_grafos_vertices_criticos_basico/simulacro/GraphCriticalVerticesOperations.java`
-- `grafos/p24_grafos_additional_features/grafos/AdditionalFeatures.java`
+- `grafos/additional_features_grafos/AdditionalFeatures.java`
+- `grafos/camino_limitado_y_potencia_grafo/GraphOperations.java`
+- `grafos/ciclo_mas_corto/GraphCycleOperations.java`
+- `grafos/grafo_complementario/GraphOperations.java`
+- `grafos/grafo_euleriano/GraphOperations.java`
+- `grafos/grafos_dirigidos_y_avanzados/GraphAdvancedOperations.java`
+- `grafos/hipergrafo/HyperGraphOperations.java`
+- `grafos/practica_extra_grafos_2026/GraphExtraOperations.java`
+- `grafos/vertices_criticos_basico/GraphCriticalVerticesOperations.java`
 
 ## Tests
 
-- `grafos/p01_enero_2026_grafos_arboles_iterador/GraphOperationsTest.java`
-- `grafos/p02_diciembre_2025_complementario_grado_identicos/GraphOperationsTest.java`
-- `grafos/p03_diciembre_2025_euler_descendants_symmetric/GraphOperationsTest.java`
-- `grafos/p04_hipergrafo/HyperGraphOperationsTest.java`
-- `grafos/p08_practica_extra_10_ejercicios/extra2026/GraphExtraOperationsTest.java`
-- `grafos/p11_grafos_ciclo_mas_corto/simulacro/GraphCycleOperationsTest.java`
-- `grafos/p12_grafos_vertices_criticos_basico/simulacro/GraphCriticalVerticesOperationsTest.java`
-- `grafos/p24_grafos_additional_features/grafos/AdditionalFeaturesTest.java`
+- `grafos/additional_features_grafos/AdditionalFeaturesTest.java`
+- `grafos/camino_limitado_y_potencia_grafo/GraphOperationsTest.java`
+- `grafos/ciclo_mas_corto/GraphCycleOperationsTest.java`
+- `grafos/grafo_complementario/GraphOperationsTest.java`
+- `grafos/grafo_euleriano/GraphOperationsTest.java`
+- `grafos/grafos_dirigidos_y_avanzados/GraphAdvancedOperationsTest.java`
+- `grafos/hipergrafo/HyperGraphOperationsTest.java`
+- `grafos/practica_extra_grafos_2026/GraphExtraOperationsTest.java`
+- `grafos/vertices_criticos_basico/GraphCriticalVerticesOperationsTest.java`

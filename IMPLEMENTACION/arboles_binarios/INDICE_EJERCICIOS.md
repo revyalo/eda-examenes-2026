@@ -14,29 +14,34 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 
 ## Ejercicios
 
-- `arbolesbinarios/p01_enero_2026_grafos_arboles_iterador/TreeOperations.java`
-- `arbolesbinarios/p02_diciembre_2025_complementario_grado_identicos/TreeOperations.java`
-- `arbolesbinarios/p03_diciembre_2025_euler_descendants_symmetric/TreeOperations.java`
-- `arbolesbinarios/p05_arboles_perfecto_iterador/MoreFunctionality.java`
-- `arbolesbinarios/p06_junio_2025_iteradores_red_electrica_parte_impl/FunHandling.java`
-- `arbolesbinarios/p07_septiembre_2024_bst_remove_half_nodes_parte_impl/BSTOperations.java`
-- `arbolesbinarios/p07_septiembre_2024_bst_remove_half_nodes_parte_impl/FunHandling.java`
-- `arbolesbinarios/p08_practica_extra_10_ejercicios/extra2026/TreeExtraOperations.java`
-- `arbolesbinarios/p16_arbol_binario_frontera/simulacro/BinaryTreeBoundaryOperations.java`
-- `arbolesbinarios/p27_levels_complete/arboles/LevelsComplete.java`
-- `arbolesbinarios/p29_minimum_successor_tree/bst/InorderMinimumSuccessorTreeIterator.java`
-- `arbolesbinarios/p29_minimum_successor_tree/bst/MaximumPredecessorTree.java`
-- `arbolesbinarios/p29_minimum_successor_tree/bst/MinimumSuccessorTree.java`
+- `arbolesbinarios/abb_avl_serializacion_sumas/BinarySearchTreeValidationOperations.java`
+- `arbolesbinarios/abb_merge_y_eliminar_semihijos/BSTOperations.java`
+- `arbolesbinarios/abb_merge_y_eliminar_semihijos/FunHandling.java`
+- `arbolesbinarios/abb_minimo_sucesor/InorderMinimumSuccessorTreeIterator.java`
+- `arbolesbinarios/abb_minimo_sucesor/MaximumPredecessorTree.java`
+- `arbolesbinarios/abb_minimo_sucesor/MinimumSuccessorTree.java`
+- `arbolesbinarios/arbol_perfecto/MoreFunctionality.java`
+- `arbolesbinarios/arbol_simetrico/TreeOperations.java`
+- `arbolesbinarios/arboles_identicos/TreeOperations.java`
+- `arbolesbinarios/frontera_arbol_binario/BinaryTreeBoundaryOperations.java`
+- `arbolesbinarios/metricas_y_recorridos_binarios/BinaryTreeTraversalOperations.java`
+- `arbolesbinarios/niveles_completos/LevelsComplete.java`
+- `arbolesbinarios/practica_extra_binarios_2026/TreeExtraOperations.java`
+- `arbolesbinarios/prefijo_arbol_binario/FunHandling.java`
+- `arbolesbinarios/propiedades_monticulo/TreeOperations.java`
 
 ## Tests
 
-- `arbolesbinarios/p01_enero_2026_grafos_arboles_iterador/TreeOperationsTest.java`
-- `arbolesbinarios/p02_diciembre_2025_complementario_grado_identicos/TreeOperationsTest.java`
-- `arbolesbinarios/p03_diciembre_2025_euler_descendants_symmetric/TreeOperationsTest.java`
-- `arbolesbinarios/p05_arboles_perfecto_iterador/MoreFunctionalityTest.java`
-- `arbolesbinarios/p06_junio_2025_iteradores_red_electrica_parte_impl/FunHandlingTest.java`
-- `arbolesbinarios/p07_septiembre_2024_bst_remove_half_nodes_parte_impl/BSTOperationsTest.java`
-- `arbolesbinarios/p07_septiembre_2024_bst_remove_half_nodes_parte_impl/FunHandlingTest.java`
-- `arbolesbinarios/p16_arbol_binario_frontera/simulacro/BinaryTreeBoundaryOperationsTest.java`
-- `arbolesbinarios/p27_levels_complete/arboles/LevelsCompleteTest.java`
-- `arbolesbinarios/p29_minimum_successor_tree/bst/MinimumSuccessorTreeTest.java`
+- `arbolesbinarios/abb_avl_serializacion_sumas/BinarySearchTreeValidationOperationsTest.java`
+- `arbolesbinarios/abb_merge_y_eliminar_semihijos/BSTOperationsTest.java`
+- `arbolesbinarios/abb_merge_y_eliminar_semihijos/FunHandlingTest.java`
+- `arbolesbinarios/abb_minimo_sucesor/MinimumSuccessorTreeTest.java`
+- `arbolesbinarios/arbol_perfecto/MoreFunctionalityTest.java`
+- `arbolesbinarios/arbol_simetrico/TreeOperationsTest.java`
+- `arbolesbinarios/arboles_identicos/TreeOperationsTest.java`
+- `arbolesbinarios/frontera_arbol_binario/BinaryTreeBoundaryOperationsTest.java`
+- `arbolesbinarios/metricas_y_recorridos_binarios/BinaryTreeTraversalOperationsTest.java`
+- `arbolesbinarios/niveles_completos/LevelsCompleteTest.java`
+- `arbolesbinarios/practica_extra_binarios_2026/TreeExtraOperationsTest.java`
+- `arbolesbinarios/prefijo_arbol_binario/FunHandlingTest.java`
+- `arbolesbinarios/propiedades_monticulo/TreeOperationsTest.java`

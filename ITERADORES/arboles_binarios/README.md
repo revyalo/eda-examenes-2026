@@ -1,6 +1,6 @@
 # Iteradores - Arboles binarios
 
-Iteradores sobre arboles binarios, inorden, postorden, niveles y variantes con remove.
+Iteradores sobre arboles binarios.
 
 ## Como usarlo
 
@@ -14,32 +14,32 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 
 ## Ejercicios
 
-- `iteradores/arbolesbinarios/p01_enero_2026_grafos_arboles_iterador/ExtendedBreadthFirstTreeIterator.java`
-- `iteradores/arbolesbinarios/p02_junio_2025_reverse_inorden/iteradores/ReverseInordenBTIterator.java`
-- `iteradores/arbolesbinarios/p03_internal_node_iterator_real/iteradores/InternalNodeIterator.java`
-- `iteradores/arbolesbinarios/p04_junio_2023_without_sibling_iterator/iteradores/WithoutSiblingIterator.java`
-- `iteradores/arbolesbinarios/p05_arboles_perfecto_iterador/InternalNodeIterator.java`
-- `iteradores/arbolesbinarios/p05_junio_2022_level_iterator/iteradores/LevelIterator.java`
-- `iteradores/arbolesbinarios/p06_extra_inorden_iterator_with_remove/iteradores/InordenIteratorWithRemove.java`
-- `iteradores/arbolesbinarios/p06_junio_2025_iteradores_red_electrica_parte_impl/ReverseInordenBTIterator.java`
-- `iteradores/arbolesbinarios/p07_extra_reverse_inorden_with_remove/iteradores/ReverseInordenBTIteratorWithRemove.java`
-- `iteradores/arbolesbinarios/p10_extra_between_levels_iterator/iteradores/BetweenLevelsIterator.java`
-- `iteradores/arbolesbinarios/p11_extra_breadth_first_even_level_iterator/iteradores/BreadthFirstEvenLevelIterator.java`
-- `iteradores/arbolesbinarios/p12_extra_path_iterator_to_root/iteradores/PathIteratorToRoot.java`
-- `iteradores/arbolesbinarios/p18_postorder_remove_iterator/iteradores/PostorderRemoveIterator.java`
+- `iteradores/arbolesbinarios/anchura_extendida_binaria/ExtendedBreadthFirstTreeIterator.java`
+- `iteradores/arbolesbinarios/anchura_niveles_pares/BreadthFirstEvenLevelIterator.java`
+- `iteradores/arbolesbinarios/camino_hasta_raiz/PathIteratorToRoot.java`
+- `iteradores/arbolesbinarios/inorden_con_remove/InordenIteratorWithRemove.java`
+- `iteradores/arbolesbinarios/inorden_inverso/ReverseInordenBTIterator.java`
+- `iteradores/arbolesbinarios/inorden_inverso_con_remove/ReverseInordenBTIteratorWithRemove.java`
+- `iteradores/arbolesbinarios/inorden_inverso_pdf/ReverseInordenBTIterator.java`
+- `iteradores/arbolesbinarios/iterador_entre_niveles/BetweenLevelsIterator.java`
+- `iteradores/arbolesbinarios/iterador_nivel_concreto/LevelIterator.java`
+- `iteradores/arbolesbinarios/iterador_nodos_internos/InternalNodeIterator.java`
+- `iteradores/arbolesbinarios/iterador_sin_hermanos/WithoutSiblingIterator.java`
+- `iteradores/arbolesbinarios/nodos_internos_arbol_perfecto/InternalNodeIterator.java`
+- `iteradores/arbolesbinarios/postorden_con_remove/PostorderRemoveIterator.java`
 
 ## Tests
 
-- `iteradores/arbolesbinarios/p01_enero_2026_grafos_arboles_iterador/ExtendedBreadthFirstTreeIteratorTest.java`
-- `iteradores/arbolesbinarios/p02_junio_2025_reverse_inorden/iteradores/ReverseInordenBTIteratorTest.java`
-- `iteradores/arbolesbinarios/p03_internal_node_iterator_real/iteradores/InternalNodeIteratorTest.java`
-- `iteradores/arbolesbinarios/p04_junio_2023_without_sibling_iterator/iteradores/WithoutSiblingIteratorTest.java`
-- `iteradores/arbolesbinarios/p05_arboles_perfecto_iterador/InternalNodeIteratorTest.java`
-- `iteradores/arbolesbinarios/p05_junio_2022_level_iterator/iteradores/LevelIteratorTest.java`
-- `iteradores/arbolesbinarios/p06_extra_inorden_iterator_with_remove/iteradores/InordenIteratorWithRemoveTest.java`
-- `iteradores/arbolesbinarios/p06_junio_2025_iteradores_red_electrica_parte_impl/ReverseInordenBTIteratorTest.java`
-- `iteradores/arbolesbinarios/p07_extra_reverse_inorden_with_remove/iteradores/ReverseInordenBTIteratorWithRemoveTest.java`
-- `iteradores/arbolesbinarios/p10_extra_between_levels_iterator/iteradores/BetweenLevelsIteratorTest.java`
-- `iteradores/arbolesbinarios/p11_extra_breadth_first_even_level_iterator/iteradores/BreadthFirstEvenLevelIteratorTest.java`
-- `iteradores/arbolesbinarios/p12_extra_path_iterator_to_root/iteradores/PathIteratorToRootTest.java`
-- `iteradores/arbolesbinarios/p18_postorder_remove_iterator/iteradores/PostorderRemoveIteratorTest.java`
+- `iteradores/arbolesbinarios/anchura_extendida_binaria/ExtendedBreadthFirstTreeIteratorTest.java`
+- `iteradores/arbolesbinarios/anchura_niveles_pares/BreadthFirstEvenLevelIteratorTest.java`
+- `iteradores/arbolesbinarios/camino_hasta_raiz/PathIteratorToRootTest.java`
+- `iteradores/arbolesbinarios/inorden_con_remove/InordenIteratorWithRemoveTest.java`
+- `iteradores/arbolesbinarios/inorden_inverso/ReverseInordenBTIteratorTest.java`
+- `iteradores/arbolesbinarios/inorden_inverso_con_remove/ReverseInordenBTIteratorWithRemoveTest.java`
+- `iteradores/arbolesbinarios/inorden_inverso_pdf/ReverseInordenBTIteratorTest.java`
+- `iteradores/arbolesbinarios/iterador_entre_niveles/BetweenLevelsIteratorTest.java`
+- `iteradores/arbolesbinarios/iterador_nivel_concreto/LevelIteratorTest.java`
+- `iteradores/arbolesbinarios/iterador_nodos_internos/InternalNodeIteratorTest.java`
+- `iteradores/arbolesbinarios/iterador_sin_hermanos/WithoutSiblingIteratorTest.java`
+- `iteradores/arbolesbinarios/nodos_internos_arbol_perfecto/InternalNodeIteratorTest.java`
+- `iteradores/arbolesbinarios/postorden_con_remove/PostorderRemoveIteratorTest.java`

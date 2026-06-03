@@ -14,14 +14,14 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 
 ## Ejercicios
 
-- `iteradores/arboles/p01_enero_2026_extended_breadth_first_remove/iteradores/ExtendedBreadthFirstTreeIterator.java`
-- `iteradores/arboles/p08_extra_leaf_iterator/iteradores/LeafIterator.java`
-- `iteradores/arboles/p09_extra_skip_leaves_iterator/iteradores/SkipLeavesIterator.java`
-- `iteradores/arboles/p20_general_tree_zigzag_iterator/iteradores/GeneralTreeZigZagIterator.java`
+- `iteradores/arboles/anchura_extendida_con_remove/ExtendedBreadthFirstTreeIterator.java`
+- `iteradores/arboles/iterador_hojas/LeafIterator.java`
+- `iteradores/arboles/iterador_sin_hojas/SkipLeavesIterator.java`
+- `iteradores/arboles/zigzag_arbol_general/GeneralTreeZigZagIterator.java`
 
 ## Tests
 
-- `iteradores/arboles/p01_enero_2026_extended_breadth_first_remove/iteradores/ExtendedBreadthFirstTreeIteratorTest.java`
-- `iteradores/arboles/p08_extra_leaf_iterator/iteradores/LeafIteratorTest.java`
-- `iteradores/arboles/p09_extra_skip_leaves_iterator/iteradores/SkipLeavesIteratorTest.java`
-- `iteradores/arboles/p20_general_tree_zigzag_iterator/iteradores/GeneralTreeZigZagIteratorTest.java`
+- `iteradores/arboles/anchura_extendida_con_remove/ExtendedBreadthFirstTreeIteratorTest.java`
+- `iteradores/arboles/iterador_hojas/LeafIteratorTest.java`
+- `iteradores/arboles/iterador_sin_hojas/SkipLeavesIteratorTest.java`
+- `iteradores/arboles/zigzag_arbol_general/GeneralTreeZigZagIteratorTest.java`

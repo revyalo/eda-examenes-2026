@@ -30,30 +30,30 @@ EDA_Examenes_2026/
 
 ## Qué hay en cada carpeta
 
-- `CASOS_DE_USO/LIMPIOS`: casos nuevos con clases de dominio dadas y clase gestora vacía, para que tú elijas las estructuras.
+- `CASOS_DE_USO/LIMPIOS`: casos nuevos con clases de dominio dadas y clase gestora vacia, para que tu elijas las estructuras.
 - `CASOS_DE_USO/DESDE_PDFS`: casos reconstruidos desde PDFs reales, con dominio, servicio/gestor y tests.
 - `IMPLEMENTACION`: tres proyectos Maven unificados: `grafos`, `arboles` y `arboles_binarios`.
 - `ITERADORES`: tres proyectos Maven unificados: `arboles`, `arboles_binarios` y `grafos`.
-- `GUIA_REPASO`: orden recomendado, guía de Java/EDA y resultados de verificación.
-- `ANALISIS`: informe del material original y exámenes mixtos antiguos documentados.
+- `GUIA_REPASO`: orden recomendado, guia de Java/EDA y resultados de verificacion.
+- `ANALISIS`: informe del material original y examenes mixtos antiguos documentados.
 
 ## Verificación
 
 Proyectos Maven actuales:
 
 - Implementación: 3.
-- Casos de uso: 28.
+- Casos de uso: 33.
 - Iteradores: 3.
-- Total: 34.
+- Total: 39.
 
-Compilación verificada:
+Compilación esperada:
 
-- 34/34 proyectos compilan con `mvn -q -DskipTests test`.
+- Todos los proyectos deben compilar con `mvn -q -DskipTests test`.
 - Los fallos de `mvn test` son fallos esperados por TODO, no por clases faltantes.
 
 ## Reglas
 
 - No hay soluciones incluidas.
 - No hay carpetas antiguas de plantillas ni primeros intentos.
-- No hay exámenes mixtos nuevos.
-- Los exámenes mixtos antiguos solo aparecen documentados o separados en ejercicios actuales.
+- No hay examenes mixtos nuevos.
+- Los examenes mixtos antiguos solo aparecen documentados o separados en ejercicios actuales.
