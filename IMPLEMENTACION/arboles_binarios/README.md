@@ -33,15 +33,15 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 ## Tests
 
 - `arbolesbinarios/abb_avl_serializacion_sumas/BinarySearchTreeValidationOperationsTest.java`
-- `arbolesbinarios/abb_merge_y_eliminar_semihijos/BSTOperationsTest.java`
-- `arbolesbinarios/abb_merge_y_eliminar_semihijos/FunHandlingTest.java`
-- `arbolesbinarios/abb_minimo_sucesor/MinimumSuccessorTreeTest.java`
-- `arbolesbinarios/arbol_perfecto/MoreFunctionalityTest.java`
-- `arbolesbinarios/arbol_simetrico/TreeOperationsTest.java`
-- `arbolesbinarios/arboles_identicos/TreeOperationsTest.java`
+- `arbolesbinarios/abb_merge_y_eliminar_semihijos/MergeArbolesBusquedaTest.java`
+- `arbolesbinarios/abb_merge_y_eliminar_semihijos/EliminarNodosConUnHijoTest.java`
+- `arbolesbinarios/abb_minimo_sucesor/MinimoSucesorYMaximoPredecesorTest.java`
+- `arbolesbinarios/arbol_perfecto/ArbolPerfectoTest.java`
+- `arbolesbinarios/arbol_simetrico/ArbolSimetricoTest.java`
+- `arbolesbinarios/arboles_identicos/ArbolesIdenticosTest.java`
 - `arbolesbinarios/frontera_arbol_binario/BinaryTreeBoundaryOperationsTest.java`
 - `arbolesbinarios/metricas_y_recorridos_binarios/BinaryTreeTraversalOperationsTest.java`
-- `arbolesbinarios/niveles_completos/LevelsCompleteTest.java`
+- `arbolesbinarios/niveles_completos/NivelesCompletosTest.java`
 - `arbolesbinarios/practica_extra_binarios_2026/TreeExtraOperationsTest.java`
-- `arbolesbinarios/prefijo_arbol_binario/FunHandlingTest.java`
-- `arbolesbinarios/propiedades_monticulo/TreeOperationsTest.java`
+- `arbolesbinarios/prefijo_arbol_binario/PrefijoArbolBinarioTest.java`
+- `arbolesbinarios/propiedades_monticulo/PropiedadesMonticuloTest.java`

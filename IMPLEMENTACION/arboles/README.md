@@ -24,10 +24,10 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 
 ## Tests
 
-- `arboles/antecesores_y_grado/Parcial1Test.java`
+- `arboles/antecesores_y_grado/AntecesoresYGradoTest.java`
 - `arboles/arboles_generales_avanzados/GeneralTreeAdvancedOperationsTest.java`
 - `arboles/diametro_arbol_general/GeneralTreeDiameterOperationsTest.java`
-- `arboles/grado_arbol_general/TreeOperationsTest.java`
-- `arboles/numero_descendientes/TreeOperationsTest.java`
+- `arboles/grado_arbol_general/GradoArbolGeneralTest.java`
+- `arboles/numero_descendientes/NumeroDescendientesTest.java`
 - `arboles/podar_subarboles_pequenos/GeneralTreePruneOperationsTest.java`
 - `arboles/practica_extra_arboles_2026/TreeExtraOperationsTest.java`

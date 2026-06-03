@@ -20,18 +20,20 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 - `grafos/grafo_complementario/GraphOperations.java`
 - `grafos/grafo_euleriano/GraphOperations.java`
 - `grafos/grafos_dirigidos_y_avanzados/GraphAdvancedOperations.java`
+- `grafos/grafos_ponderados_dijkstra/WeightedGraphDijkstraOperations.java`
 - `grafos/hipergrafo/HyperGraphOperations.java`
 - `grafos/practica_extra_grafos_2026/GraphExtraOperations.java`
 - `grafos/vertices_criticos_basico/GraphCriticalVerticesOperations.java`
 
 ## Tests
 
-- `grafos/additional_features_grafos/AdditionalFeaturesTest.java`
-- `grafos/camino_limitado_y_potencia_grafo/GraphOperationsTest.java`
+- `grafos/additional_features_grafos/AdditionalFeaturesGrafosTest.java`
+- `grafos/camino_limitado_y_potencia_grafo/CaminoLimitadoYPotenciaGrafoTest.java`
 - `grafos/ciclo_mas_corto/GraphCycleOperationsTest.java`
-- `grafos/grafo_complementario/GraphOperationsTest.java`
-- `grafos/grafo_euleriano/GraphOperationsTest.java`
+- `grafos/grafo_complementario/GrafoComplementarioTest.java`
+- `grafos/grafo_euleriano/GrafoEulerianoTest.java`
 - `grafos/grafos_dirigidos_y_avanzados/GraphAdvancedOperationsTest.java`
+- `grafos/grafos_ponderados_dijkstra/WeightedGraphDijkstraOperationsTest.java`
 - `grafos/hipergrafo/HyperGraphOperationsTest.java`
 - `grafos/practica_extra_grafos_2026/GraphExtraOperationsTest.java`
 - `grafos/vertices_criticos_basico/GraphCriticalVerticesOperationsTest.java`
