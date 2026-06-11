@@ -76,6 +76,16 @@ class BinaryTreeTraversalOperationsTest {
     }
 
     @Test
+    void nodesAtDistanceKCanMoveThroughParentAndChildren() {
+        LinkedBinaryTree<String> tree = sampleTree();
+        Position<String> root = tree.root();
+        Position<String> left = tree.left(root);
+
+        assertEquals(List.of("C", "D", "E"),
+                positionElements(BinaryTreeTraversalOperations.nodesAtDistanceK(tree, left, 1)));
+    }
+
+    @Test
     void zigZagAlternatesDirectionByLevel() {
         assertEquals(List.of("A", "C", "B", "D", "E", "F"), elements(BinaryTreeTraversalOperations.zigZagTraversal(sampleTree())));
     }

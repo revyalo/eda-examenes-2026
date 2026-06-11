@@ -1,6 +1,7 @@
 package es.urjc.grafo.EDA.examen.arboles.arboles_generales_avanzados;
 
 import es.urjc.grafo.EDA.trees.Tree;
+import es.urjc.grafo.EDA.trees.nAryTrees.LinkedTree;
 import es.urjc.grafo.EDA.utils.Position;
 
 import java.util.Collection;
@@ -50,6 +51,23 @@ public class GeneralTreeAdvancedOperations {
     public static <E> int distance(Tree<E> tree, Position<E> first, Position<E> second) {
         // TODO: calcular la distancia entre dos posiciones usando el LCA o caminos a raiz.
         throw new UnsupportedOperationException("TODO: distance");
+    }
+
+    public static <E> Iterable<Position<E>> pathBetween(Tree<E> tree,
+                                                        Position<E> first,
+                                                        Position<E> second) {
+        // TODO: devolver el camino completo entre first y second pasando por el LCA.
+        throw new UnsupportedOperationException("TODO: pathBetween");
+    }
+
+    public static <E> int removeLeaves(LinkedTree<E> tree) {
+        // TODO: eliminar todas las hojas del arbol general y devolver cuantas se eliminaron.
+        throw new UnsupportedOperationException("TODO: removeLeaves");
+    }
+
+    public static <E> LinkedTree<E> copySubtree(Tree<E> tree, Position<E> root) {
+        // TODO: crear una copia independiente del subarbol con raiz root.
+        throw new UnsupportedOperationException("TODO: copySubtree");
     }
 
     public static <E, F> boolean isIsomorphic(Tree<E> first, Tree<F> second) {

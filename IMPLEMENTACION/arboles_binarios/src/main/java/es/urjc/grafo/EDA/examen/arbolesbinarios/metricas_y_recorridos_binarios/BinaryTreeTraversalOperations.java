@@ -43,6 +43,13 @@ public class BinaryTreeTraversalOperations {
         throw new UnsupportedOperationException("TODO: nodesAtLevel");
     }
 
+    public static <E> Iterable<Position<E>> nodesAtDistanceK(BinaryTree<E> tree,
+                                                             Position<E> target,
+                                                             int k) {
+        // TODO: devolver posiciones a distancia exactamente k del nodo target.
+        throw new UnsupportedOperationException("TODO: nodesAtDistanceK");
+    }
+
     public static <E> Iterable<E> zigZagTraversal(BinaryTree<E> tree) {
         // TODO: recorrido por niveles alternando izquierda-derecha y derecha-izquierda.
         throw new UnsupportedOperationException("TODO: zigZagTraversal");

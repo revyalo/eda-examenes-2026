@@ -119,6 +119,45 @@ class GeneralTreeAdvancedOperationsTest {
     }
 
     @Test
+    void pathBetweenReturnsFullPathFromFirstToSecond() {
+        LinkedTree<String> tree = new LinkedTree<>();
+        Position<String> a = tree.addRoot("A");
+        Position<String> b = tree.add("B", a);
+        Position<String> c = tree.add("C", a);
+        Position<String> d = tree.add("D", b);
+
+        assertEquals(List.of("D", "B", "A", "C"), elements(GeneralTreeAdvancedOperations.pathBetween(tree, d, c)));
+    }
+
+    @Test
+    void removeLeavesDeletesOnlyCurrentLeaves() {
+        LinkedTree<String> tree = new LinkedTree<>();
+        Position<String> a = tree.addRoot("A");
+        Position<String> b = tree.add("B", a);
+        tree.add("C", a);
+        tree.add("D", b);
+
+        assertEquals(2, GeneralTreeAdvancedOperations.removeLeaves(tree));
+        assertEquals(2, tree.size());
+        assertEquals(List.of("A", "B"), elements(tree));
+    }
+
+    @Test
+    void copySubtreeCreatesIndependentTreeWithSameShapeAndElements() {
+        LinkedTree<String> tree = new LinkedTree<>();
+        Position<String> a = tree.addRoot("A");
+        Position<String> b = tree.add("B", a);
+        tree.add("C", b);
+        tree.add("D", b);
+
+        LinkedTree<String> copy = GeneralTreeAdvancedOperations.copySubtree(tree, b);
+
+        assertEquals(List.of("B", "C", "D"), elements(copy));
+        tree.replace(b, "X");
+        assertEquals("B", copy.root().getElement());
+    }
+
+    @Test
     void isomorphicIgnoresElementsButChecksShape() {
         LinkedTree<String> first = new LinkedTree<>();
         Position<String> a = first.addRoot("A");

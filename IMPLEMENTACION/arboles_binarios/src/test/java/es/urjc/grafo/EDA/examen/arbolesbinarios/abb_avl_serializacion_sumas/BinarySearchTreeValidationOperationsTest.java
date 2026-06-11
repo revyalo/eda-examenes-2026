@@ -46,6 +46,36 @@ class BinarySearchTreeValidationOperationsTest {
     }
 
     @Test
+    void floorAndCeilingReturnClosestBounds() {
+        LinkedBinaryTree<Integer> tree = bst();
+
+        assertEquals(6, BinarySearchTreeValidationOperations.floor(tree, 7, Integer::compareTo).getElement());
+        assertEquals(8, BinarySearchTreeValidationOperations.ceiling(tree, 7, Integer::compareTo).getElement());
+    }
+
+    @Test
+    void predecessorAndSuccessorAreStrict() {
+        LinkedBinaryTree<Integer> tree = bst();
+
+        assertEquals(6, BinarySearchTreeValidationOperations.predecessor(tree, 8, Integer::compareTo).getElement());
+        assertEquals(10, BinarySearchTreeValidationOperations.successor(tree, 8, Integer::compareTo).getElement());
+    }
+
+    @Test
+    void removeRangeDeletesIncludedKeysAndReturnsThemInOrder() {
+        LinkedBinaryTree<Integer> tree = bst();
+
+        List<Integer> removed = new ArrayList<>();
+        for (Integer value : BinarySearchTreeValidationOperations.removeRange(tree, 4, 12, Integer::compareTo)) {
+            removed.add(value);
+        }
+
+        assertEquals(List.of(4, 6, 8, 10, 12), removed);
+        assertTrue(BinarySearchTreeValidationOperations.isBST(tree, Integer::compareTo));
+        assertEquals(List.of(2, 14), inorderElements(tree));
+    }
+
+    @Test
     void serializeDeserializePreservesShapeAndValues() {
         String serialized = BinarySearchTreeValidationOperations.serialize(bst());
         LinkedBinaryTree<Integer> rebuilt = BinarySearchTreeValidationOperations.deserialize(serialized);
@@ -63,5 +93,13 @@ class BinarySearchTreeValidationOperationsTest {
     @Test
     void pathsWithSumReturnsAllMatchingPaths() {
         assertEquals(List.of(List.of(8, 4, 2)), normalize(BinarySearchTreeValidationOperations.pathsWithSum(bst(), 14)));
+    }
+
+    private static List<Integer> inorderElements(LinkedBinaryTree<Integer> tree) {
+        List<Integer> result = new ArrayList<>();
+        for (Position<Integer> position : tree) {
+            result.add(position.getElement());
+        }
+        return result;
     }
 }

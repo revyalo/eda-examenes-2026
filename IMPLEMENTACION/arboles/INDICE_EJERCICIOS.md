@@ -14,6 +14,7 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 
 ## Ejercicios
 
+- `ENUNCIADO_REFUERZO_TREE_GENERAL.md`
 - `arboles/antecesores_y_grado/Parcial1.java`
 - `arboles/arboles_generales_avanzados/GeneralTreeAdvancedOperations.java`
 - `arboles/diametro_arbol_general/GeneralTreeDiameterOperations.java`

@@ -92,6 +92,26 @@ class WeightedGraphDijkstraOperationsTest {
     }
 
     @Test
+    void nearestTargetReturnsCheapestTargetAmongCandidates() {
+        WeightedGraphFixture fixture = new WeightedGraphFixture();
+
+        Vertex<String> nearest = WeightedGraphDijkstraOperations.nearestTarget(
+                fixture.graph, fixture.a, List.of(fixture.d, fixture.e));
+
+        assertEquals("D", nearest.getElement());
+    }
+
+    @Test
+    void multiSourceShortestDistanceStartsFromAllSourcesAtCostZero() {
+        WeightedGraphFixture fixture = new WeightedGraphFixture();
+
+        int distance = WeightedGraphDijkstraOperations.multiSourceShortestDistance(
+                fixture.graph, List.of(fixture.a, fixture.d), fixture.e);
+
+        assertEquals(3, distance);
+    }
+
+    @Test
     void weightedEccentricityIsTheWorstShortestDistanceFromVertex() {
         WeightedGraphFixture fixture = new WeightedGraphFixture();
 

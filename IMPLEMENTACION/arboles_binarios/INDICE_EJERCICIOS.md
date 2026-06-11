@@ -14,6 +14,7 @@ Los metodos del alumno se mantienen como esqueletos. Es normal que `mvn test` fa
 
 ## Ejercicios
 
+- `ENUNCIADO_REFUERZO_BINARIOS_ABB.md`
 - `arbolesbinarios/abb_avl_serializacion_sumas/BinarySearchTreeValidationOperations.java`
 - `arbolesbinarios/abb_merge_y_eliminar_semihijos/BSTOperations.java`
 - `arbolesbinarios/abb_merge_y_eliminar_semihijos/FunHandling.java`

@@ -36,6 +36,20 @@ public class WeightedGraphDijkstraOperations {
         throw new UnsupportedOperationException("TODO: kClosestVertices");
     }
 
+    public static <V> Vertex<V> nearestTarget(AdjacencyMapGraph<V, Integer> graph,
+                                              Vertex<V> source,
+                                              Collection<Vertex<V>> targets) {
+        // TODO: devolver el destino de targets mas cercano a source usando Dijkstra.
+        throw new UnsupportedOperationException("TODO: nearestTarget");
+    }
+
+    public static <V> int multiSourceShortestDistance(AdjacencyMapGraph<V, Integer> graph,
+                                                      Collection<Vertex<V>> sources,
+                                                      Vertex<V> target) {
+        // TODO: calcular la distancia minima desde cualquiera de los origenes hasta target.
+        throw new UnsupportedOperationException("TODO: multiSourceShortestDistance");
+    }
+
     public static <V> int weightedEccentricity(AdjacencyMapGraph<V, Integer> graph,
                                                Vertex<V> vertex) {
         // TODO: devolver la mayor distancia minima ponderada desde vertex al resto de vertices.

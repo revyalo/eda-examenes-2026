@@ -2,6 +2,7 @@ package es.urjc.grafo.EDA.examen.arbolesbinarios.abb_avl_serializacion_sumas;
 
 import es.urjc.grafo.EDA.trees.binaryTrees.BinaryTree;
 import es.urjc.grafo.EDA.trees.binaryTrees.LinkedBinaryTree;
+import es.urjc.grafo.EDA.utils.Position;
 
 import java.util.Comparator;
 
@@ -15,6 +16,34 @@ public class BinarySearchTreeValidationOperations {
     public static <E extends Comparable<E>> boolean isAVL(BinaryTree<E> tree) {
         // TODO: validar que es ABB y que cumple balance AVL en todos los nodos.
         throw new UnsupportedOperationException("TODO: isAVL");
+    }
+
+    public static <E> Position<E> floor(BinaryTree<E> tree, E key, Comparator<E> comparator) {
+        // TODO: devolver la posicion con mayor clave <= key, o null si no existe.
+        throw new UnsupportedOperationException("TODO: floor");
+    }
+
+    public static <E> Position<E> ceiling(BinaryTree<E> tree, E key, Comparator<E> comparator) {
+        // TODO: devolver la posicion con menor clave >= key, o null si no existe.
+        throw new UnsupportedOperationException("TODO: ceiling");
+    }
+
+    public static <E> Position<E> predecessor(BinaryTree<E> tree, E key, Comparator<E> comparator) {
+        // TODO: devolver la posicion con mayor clave estrictamente menor que key.
+        throw new UnsupportedOperationException("TODO: predecessor");
+    }
+
+    public static <E> Position<E> successor(BinaryTree<E> tree, E key, Comparator<E> comparator) {
+        // TODO: devolver la posicion con menor clave estrictamente mayor que key.
+        throw new UnsupportedOperationException("TODO: successor");
+    }
+
+    public static <E> Iterable<E> removeRange(LinkedBinaryTree<E> tree,
+                                             E min,
+                                             E max,
+                                             Comparator<E> comparator) {
+        // TODO: eliminar del ABB los valores en [min, max] y devolverlos en orden creciente.
+        throw new UnsupportedOperationException("TODO: removeRange");
     }
 
     public static String serialize(BinaryTree<Integer> tree) {
