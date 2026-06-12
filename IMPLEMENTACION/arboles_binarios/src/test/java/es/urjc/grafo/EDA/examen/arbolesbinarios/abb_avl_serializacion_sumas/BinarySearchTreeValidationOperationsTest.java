@@ -76,6 +76,23 @@ class BinarySearchTreeValidationOperationsTest {
     }
 
     @Test
+    void kthSmallestUsesInorderPosition() {
+        LinkedBinaryTree<Integer> tree = bst();
+
+        assertEquals(6, BinarySearchTreeValidationOperations.kthSmallest(tree, 3).getElement());
+    }
+
+    @Test
+    void trimBstKeepsOnlyValuesInsideRange() {
+        LinkedBinaryTree<Integer> tree = bst();
+
+        LinkedBinaryTree<Integer> trimmed = BinarySearchTreeValidationOperations.trimBST(tree, 5, 12, Integer::compareTo);
+
+        assertTrue(BinarySearchTreeValidationOperations.isBST(trimmed, Integer::compareTo));
+        assertEquals(List.of(6, 8, 10, 12), inorderElements(trimmed));
+    }
+
+    @Test
     void serializeDeserializePreservesShapeAndValues() {
         String serialized = BinarySearchTreeValidationOperations.serialize(bst());
         LinkedBinaryTree<Integer> rebuilt = BinarySearchTreeValidationOperations.deserialize(serialized);

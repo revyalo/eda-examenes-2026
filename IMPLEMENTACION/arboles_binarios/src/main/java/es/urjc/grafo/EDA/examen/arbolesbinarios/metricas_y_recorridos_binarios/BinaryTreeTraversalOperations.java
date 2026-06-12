@@ -1,6 +1,7 @@
 package es.urjc.grafo.EDA.examen.arbolesbinarios.metricas_y_recorridos_binarios;
 
 import es.urjc.grafo.EDA.trees.binaryTrees.BinaryTree;
+import es.urjc.grafo.EDA.trees.binaryTrees.LinkedBinaryTree;
 import es.urjc.grafo.EDA.utils.Position;
 
 import java.util.List;
@@ -68,6 +69,16 @@ public class BinaryTreeTraversalOperations {
     public static <E> Position<E> lowestCommonAncestor(BinaryTree<E> tree, Position<E> first, Position<E> second) {
         // TODO: devolver ancestro comun mas bajo en arbol binario.
         throw new UnsupportedOperationException("TODO: lowestCommonAncestor");
+    }
+
+    public static <E> boolean isSubtree(BinaryTree<E> tree, BinaryTree<E> candidate) {
+        // TODO: comprobar si candidate aparece dentro de tree con la misma forma y los mismos valores.
+        throw new UnsupportedOperationException("TODO: isSubtree");
+    }
+
+    public static <E> int pruneBelowDepth(LinkedBinaryTree<E> tree, int maxDepth) {
+        // TODO: eliminar todos los nodos situados a profundidad mayor que maxDepth.
+        throw new UnsupportedOperationException("TODO: pruneBelowDepth");
     }
 
     public static <E> void mirror(BinaryTree<E> tree) {

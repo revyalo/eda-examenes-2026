@@ -70,6 +70,26 @@ public class GeneralTreeAdvancedOperations {
         throw new UnsupportedOperationException("TODO: copySubtree");
     }
 
+    public static <E> Iterable<Iterable<Position<E>>> rootToLeafPaths(Tree<E> tree) {
+        // TODO: devolver todos los caminos desde la raiz hasta cada hoja.
+        throw new UnsupportedOperationException("TODO: rootToLeafPaths");
+    }
+
+    public static <E> int removeSubtree(LinkedTree<E> tree, Position<E> root) {
+        // TODO: eliminar el subarbol completo con raiz root y devolver cuantos nodos se borran.
+        throw new UnsupportedOperationException("TODO: removeSubtree");
+    }
+
+    public static <E> Position<E> subtreeWithMostNodes(Tree<E> tree, Position<E> root) {
+        // TODO: devolver la raiz del mayor subarbol propio contenido bajo root; null si no hay descendientes.
+        throw new UnsupportedOperationException("TODO: subtreeWithMostNodes");
+    }
+
+    public static <E, F> boolean sameShapeIgnoringChildrenOrder(Tree<E> first, Tree<F> second) {
+        // TODO: comparar la forma ignorando valores y sin exigir el mismo orden de hijos.
+        throw new UnsupportedOperationException("TODO: sameShapeIgnoringChildrenOrder");
+    }
+
     public static <E, F> boolean isIsomorphic(Tree<E> first, Tree<F> second) {
         // TODO: comparar la forma de dos arboles generales ignorando valores.
         throw new UnsupportedOperationException("TODO: isIsomorphic");

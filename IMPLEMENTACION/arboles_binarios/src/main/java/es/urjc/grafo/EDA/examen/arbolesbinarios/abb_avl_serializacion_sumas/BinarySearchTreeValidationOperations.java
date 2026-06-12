@@ -46,6 +46,19 @@ public class BinarySearchTreeValidationOperations {
         throw new UnsupportedOperationException("TODO: removeRange");
     }
 
+    public static <E> Position<E> kthSmallest(BinaryTree<E> tree, int k) {
+        // TODO: devolver la posicion del k-esimo menor elemento del ABB usando inorden.
+        throw new UnsupportedOperationException("TODO: kthSmallest");
+    }
+
+    public static <E> LinkedBinaryTree<E> trimBST(LinkedBinaryTree<E> tree,
+                                                 E min,
+                                                 E max,
+                                                 Comparator<E> comparator) {
+        // TODO: podar el ABB eliminando las claves fuera del rango [min, max].
+        throw new UnsupportedOperationException("TODO: trimBST");
+    }
+
     public static String serialize(BinaryTree<Integer> tree) {
         // TODO: serializar con recorrido que conserve nulos para poder reconstruir.
         throw new UnsupportedOperationException("TODO: serialize");

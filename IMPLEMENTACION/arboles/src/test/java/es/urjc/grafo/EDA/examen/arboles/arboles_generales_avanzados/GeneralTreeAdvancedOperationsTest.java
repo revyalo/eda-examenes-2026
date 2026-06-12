@@ -19,6 +19,14 @@ class GeneralTreeAdvancedOperationsTest {
         return result;
     }
 
+    private static <E> List<List<E>> pathElements(Iterable<Iterable<Position<E>>> paths) {
+        List<List<E>> result = new ArrayList<>();
+        for (Iterable<Position<E>> path : paths) {
+            result.add(elements(path));
+        }
+        return result;
+    }
+
     @Test
     void heightCountsLongestRootToLeafPath() {
         LinkedTree<String> tree = new LinkedTree<>();
@@ -155,6 +163,61 @@ class GeneralTreeAdvancedOperationsTest {
         assertEquals(List.of("B", "C", "D"), elements(copy));
         tree.replace(b, "X");
         assertEquals("B", copy.root().getElement());
+    }
+
+    @Test
+    void rootToLeafPathsReturnsEveryLeafPath() {
+        LinkedTree<String> tree = new LinkedTree<>();
+        Position<String> a = tree.addRoot("A");
+        Position<String> b = tree.add("B", a);
+        tree.add("C", a);
+        tree.add("D", b);
+
+        assertEquals(List.of(List.of("A", "B", "D"), List.of("A", "C")),
+                pathElements(GeneralTreeAdvancedOperations.rootToLeafPaths(tree)));
+    }
+
+    @Test
+    void removeSubtreeDeletesCompleteBranchAndReportsSize() {
+        LinkedTree<String> tree = new LinkedTree<>();
+        Position<String> a = tree.addRoot("A");
+        Position<String> b = tree.add("B", a);
+        tree.add("C", a);
+        tree.add("D", b);
+        tree.add("E", b);
+
+        assertEquals(3, GeneralTreeAdvancedOperations.removeSubtree(tree, b));
+        assertEquals(List.of("A", "C"), elements(tree));
+    }
+
+    @Test
+    void subtreeWithMostNodesIgnoresTheRootParameterItself() {
+        LinkedTree<String> tree = new LinkedTree<>();
+        Position<String> a = tree.addRoot("A");
+        Position<String> b = tree.add("B", a);
+        Position<String> c = tree.add("C", a);
+        tree.add("D", b);
+        tree.add("E", b);
+        tree.add("F", c);
+
+        assertEquals(b, GeneralTreeAdvancedOperations.subtreeWithMostNodes(tree, a));
+    }
+
+    @Test
+    void sameShapeIgnoringChildrenOrderAllowsPermutedChildren() {
+        LinkedTree<String> first = new LinkedTree<>();
+        Position<String> a = first.addRoot("A");
+        Position<String> b = first.add("B", a);
+        first.add("C", a);
+        first.add("D", b);
+
+        LinkedTree<Integer> second = new LinkedTree<>();
+        Position<Integer> one = second.addRoot(1);
+        second.add(2, one);
+        Position<Integer> three = second.add(3, one);
+        second.add(4, three);
+
+        assertTrue(GeneralTreeAdvancedOperations.sameShapeIgnoringChildrenOrder(first, second));
     }
 
     @Test

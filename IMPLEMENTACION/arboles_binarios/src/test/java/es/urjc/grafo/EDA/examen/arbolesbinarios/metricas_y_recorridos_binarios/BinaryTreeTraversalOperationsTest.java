@@ -109,4 +109,24 @@ class BinaryTreeTraversalOperationsTest {
         assertEquals(List.of("A", "B", "E"), elements(BinaryTreeTraversalOperations.pathToNode(tree, "E")));
         assertEquals(left, BinaryTreeTraversalOperations.lowestCommonAncestor(tree, d, e));
     }
+
+    @Test
+    void subtreeMustMatchShapeAndValues() {
+        LinkedBinaryTree<String> tree = sampleTree();
+        LinkedBinaryTree<String> candidate = new LinkedBinaryTree<>();
+        Position<String> b = candidate.addRoot("B");
+        candidate.insertLeft(b, "D");
+        candidate.insertRight(b, "E");
+
+        assertTrue(BinaryTreeTraversalOperations.isSubtree(tree, candidate));
+    }
+
+    @Test
+    void pruneBelowDepthCutsAllDeeperNodes() {
+        LinkedBinaryTree<String> tree = sampleTree();
+
+        assertEquals(3, BinaryTreeTraversalOperations.pruneBelowDepth(tree, 1));
+        assertEquals(3, tree.size());
+        assertEquals(List.of("B", "A", "C"), positionElements(tree));
+    }
 }
